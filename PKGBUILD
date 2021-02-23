@@ -13,12 +13,13 @@ makedepends=('git')
 source=("git+${url}.git")
 sha256sums=('SKIP')
 
-pkgver() {
-  cd "$srcdir/$_pkgname"
-  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
-}
+#pkgver() {
+#  cd "$srcdir/$_pkgname"
+#  git describe --long --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
+#}
 
 package() {
   cd "$srcdir/$_pkgname"
-  install -g0 -o0 -Dm755 colors "$pkgdir/etc/$_pkgname"
+  mkdir -p "$pkgdir/etc/clifm"
+  cp -r colors "$pkgdir/etc/clifm"
 }
