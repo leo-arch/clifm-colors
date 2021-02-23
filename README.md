@@ -33,7 +33,7 @@
 
 ![clifm](screenshots/green-256.png)
 
-**greeb-256**
+**green-256**
 
 ![clifm](screenshots/gruvbox.png)
 
