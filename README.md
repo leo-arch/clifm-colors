@@ -4,6 +4,7 @@ Some color schemes for CliFM file manager
 ## Screenshots
 
 ![clifm](screenshots/amber-256.png)
+
 **amber-256**
 
 ![clifm](screenshots/aqua.png)
@@ -38,17 +39,9 @@ Some color schemes for CliFM file manager
 
 **gruvbox**
 
-![clifm](screenshots/light.png)
-
-**light**
-
 ![clifm](screenshots/molokai.png)
 
 **molokai**
-
-![clifm](screenshots/snow.png)
-
-**snow**
 
 ![clifm](screenshots/solarized.png)
 
