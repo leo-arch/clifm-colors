@@ -63,10 +63,10 @@
 
 1) Clone this repo:
 
-	git clone https://github.com/leo-arch/clifm-colors
+	$ git clone https://github.com/leo-arch/clifm-colors
 
-2) cd into the clifm-colors directory and copy the color schemes (.cfm files) in the colors directory of your CLiFM installation (´$XDG_CONFIG_HOME/clifm/colors´ or ´$HOME/.config/clifm/colors´)
+2) cd into the clifm-colors directory and copy the color schemes (.cfm files) in the colors directory of your CLiFM installation (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`)
 
-	cp colors/*.cfm $XDG_CONFIG_HOME/clifm/colors
+	$ cp colors/*.cfm $XDG_CONFIG_HOME/clifm/colors
 
 3) Set the desired color scheme, either via command line (with the --color-scheme option) or, once in CLifM, with the cs command. You can also permanently set the color scheme using the main configuration file: clifmrc.
