@@ -7,48 +7,63 @@ Some color schemes for CliFM file manager
 **amber-256**
 
 ![clifm](screenshots/aqua.png)
+
 **aqua**
 
 ![clifm](screenshots/base16.png)
+
 **base16**
 
 ![clifm](screenshots/cga.png)
+
 **cga**
 
 ![clifm](screenshots/cold.png)
+
 **cold**
 
 ![clifm](screenshots/dracula.png)
+
 **dracula**
 
 ![clifm](screenshots/forest.png)
+
 **forest**
 
 ![clifm](screenshots/green-256.png)
+
 **greeb-256**
 
 ![clifm](screenshots/gruvbox.png)
+
 **gruvbox**
 
 ![clifm](screenshots/light.png)
+
 **light**
 
 ![clifm](screenshots/molokai.png)
+
 **molokai**
 
 ![clifm](screenshots/snow.png)
+
 **snow**
 
 ![clifm](screenshots/solarized.png)
+
 **solarized**
 
 ![clifm](screenshots/sunset.png)
+
 **sunset**
 
 ![clifm](screenshots/white-256.png)
+
 **white-256**
 
 ![clifm](screenshots/zenburn.png)
+
 **zenburn**
 
 ## Installation
