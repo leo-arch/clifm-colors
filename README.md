@@ -1,5 +1,5 @@
 # clifm-colors
-Some color schemes for CliFM file manager
+> Some color schemes for CliFM file manager
 
 ## Screenshots
 
@@ -65,7 +65,7 @@ Some color schemes for CliFM file manager
 
 	git clone https://github.com/leo-arch/clifm-colors
 
-2) cd into the clifm-colors directory and copy the color schemes (.cfm files) in the colors directory of your CLiFM installation ($XDG_CONFIG_HOME/clifm/colors or $HOME/.config/clifm/colors)
+2) cd into the clifm-colors directory and copy the color schemes (.cfm files) in the colors directory of your CLiFM installation (´$XDG_CONFIG_HOME/clifm/colors´ or ´$HOME/.config/clifm/colors´)
 
 	cp colors/*.cfm $XDG_CONFIG_HOME/clifm/colors
 
