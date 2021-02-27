@@ -65,6 +65,10 @@
 
 ## Installation
 
+For Archlinux users, it is available on the AUR: https://aur.archlinux.org/packages/clifm-colors-git
+
+Otherwise:
+
 1) Clone this repo:
 
        git clone https://github.com/leo-arch/clifm-colors
