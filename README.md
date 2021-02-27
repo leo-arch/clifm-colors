@@ -1,5 +1,5 @@
 # clifm-colors
-> Some color schemes for CliFM file manager
+> Some color schemes for CliFM file manager (https://github.com/leo-arch/clifm)
 
 ## Screenshots
 
