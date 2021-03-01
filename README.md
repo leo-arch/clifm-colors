@@ -1,5 +1,5 @@
 # clifm-colors
-> Some color schemes for CliFM file manager (https://github.com/leo-arch/clifm)
+> Some color schemes for [CliFM file manager](https://github.com/leo-arch/clifm)
 
 ### Packages
 [![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/clifm/)
@@ -66,7 +66,7 @@
 ## Installation
 
 For Archlinux users: 
-1) Install the package (it is available on the AUR: https://aur.archlinux.org/packages/clifm-colors-git)
+1) Install the package (it is available on the [AUR](https://aur.archlinux.org/packages/clifm-colors-git)
 2) Color schemes are installed in `/etc/clifm`. So, copy the `colors` directory to your CLiFM installation directory: `$XDG_CONFIG_HOME/clifm` or `$HOME/.config/clifm`.
 3) Now run CliFM and use the `cs` command to change color schemes.
 
