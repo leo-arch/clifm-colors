@@ -66,8 +66,9 @@
 ## Installation
 
 For Archlinux users: 
+
 1) Install the package (it is available on the [AUR](https://aur.archlinux.org/packages/clifm-colors-git))
-2) Color schemes are installed in `/etc/clifm`. So, copy the `colors` directory to your CLiFM installation directory: `$XDG_CONFIG_HOME/clifm` or `$HOME/.config/clifm`.
+2) Color schemes are installed in `/usr/share/clifm`. So, copy the `colors` directory to your CLiFM installation directory: `$XDG_CONFIG_HOME/clifm` or `$HOME/.config/clifm`.
 3) Now run CliFM and use the `cs` command to change color schemes.
 
 If not using Arch:
