@@ -7,7 +7,7 @@
 # For more information consult the manpage.
 
 #CliFM Default
-FiletypeColors="di=01;34:nd=01;31:ed=00;34:ne=00;31:fi=00;97:ef=00;33:nf=00;31:ln=01;36:mh=30;46:or=00;36:pi=33;40:so=01;35:bd=01;33:cd=01;37:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:ee=00;32:no=00;31;47:uf=31;40:"
+FiletypeColors="di=01;34:nd=01;31:ed=00;34:ne=00;31:fi=00;97:ef=00;33:nf=00;31:ln=01;36:mh=30;46:or=00;36:pi=00;35:so=01;35:bd=01;33:cd=01;37:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:ee=00;32:no=00;31;47:uf=34;47:"
 
 InterfaceColors="el=01;33:mi=01;36:dl=01;34:tx=00;97:df=00;97:dc=00;97:wc=01;36:dh=00;36:li=01;32:si=01;34:ti=01;33:em=01;31:wm=01;33:nm=01;32:bm=01;36:"
 
