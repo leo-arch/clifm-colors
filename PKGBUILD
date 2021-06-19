@@ -20,6 +20,6 @@ sha256sums=('SKIP')
 
 package() {
   cd "$srcdir/$_pkgname"
-  mkdir -p "$pkgdir/usr/share/clifm"
-  cp -r colors "$pkgdir/usr/share/clifm"
+  mkdir -p "$pkgdir/${XDG_DATA_DIRS:-usr/share}/clifm/"
+  cp -r colors "$pkgdir/${XDG_DATA_DIRS:-usr/share}/clifm"
 }
