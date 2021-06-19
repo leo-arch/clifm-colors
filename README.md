@@ -4,9 +4,16 @@
 [![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=arch-linux&style=flat)](https://aur.archlinux.org/packages/clifm/)
 [![License](https://img.shields.io/github/license/leo-arch/clifm?color=333333&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
 
+---
+
 ## Table of contents
 [Screenshots](#screenshots) \
-[Installation](#installation)
+[Installation](#installation) \
+[License](#license) \
+[Constributing](#contributing) \
+[Community](#community)
+
+---
 
 ## Screenshots
 
@@ -66,6 +73,8 @@
 
 **zenburn**
 
+---
+
 ## Installation
 
 For Archlinux users: 
@@ -86,4 +95,19 @@ If not using Arch:
 
 3) Set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in CLifM, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc`.
 
-Try them, modify them, and even create your own themes. If you do so, you can always fork this repo, add your theme, and send a pull request.
+---
+
+## License
+This project is licensed GPL version 2 (or later). \
+See the [LICENSE](https://github.com/leo-arch/clifm-colors/blob/master/LICENSE) file for details.
+
+---
+
+## Contributing
+Yes. Try these color schemes, modify them, and even create your own themes. If you do so, you can always fork this repo, add your theme, and submit a pull request.
+
+---
+
+## Community
+Join CliFM's [Gitter discussion room](https://gitter.im/leo-arch/clifm) and let us know what you think: ideas, comments, observations and questions are always welcome. \
+The [Discussions](https://github.com/leo-arch/clifm/discussions) section of CliFM is also open to input.
