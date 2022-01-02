@@ -1,4 +1,8 @@
-#forest
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+#Theme name: Forest
 FiletypeColors="di=01;32:nd=01;31:ed=00;32:ne=00;31:fi=00;97:ef=00;33:nf=00;31:ln=01;36:mh=30;46:or=00;36:pi=33;40:so=01;35:bd=01;33:cd=01;37:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=02;01;32:ee=02;00;32:no=00;31;47:uf=31;40:"
 
 InterfaceColors="el=01;33:mi=01;32:dl=01;32:tx=00;97:df=00;97:dc=00;39:wc=01;36:dh=00;33:li=01;32:si=01;34:ti=01;33:em=01;31:wm=01;33:nm=01;32:bm=01;36:"

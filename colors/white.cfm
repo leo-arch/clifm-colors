@@ -1,4 +1,8 @@
-#white
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+# Theme name: White
 FiletypeColors="di=01;37:nd=01;02;37:ed=01;02;37:ne=04;01;37:fi=00;37:ef=02;37:ex=00;37:ee=00;37:nf=04;01;37:ln=04;37:mh=04;37:or=04;02;37:pi=02;37;40:so=00;37:bd=01;37:cd=01;37:su=04;01;30;47:sg=01;30;47:ca=30;47:tw=01;37:ow=01;37:st=01;37:no=30;47:uf=30;47:"
 
 InterfaceColors="el=01;02;37:mi=01;37:dl=01;02;37:tx=00;39:df=00;39:dc=00;39:wc=01;36:dh=01;37:li=01;37:si=01;37:ti=01;37:em=01;37:wm=01;37:nm=01;37:bm=01;37:"

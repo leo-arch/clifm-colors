@@ -1,13 +1,9 @@
-# FiletypeColors defines the color used for filetypes when listing files, 
-# just as InterfaceColors defines colors for CliFM interface. Both make
-# use of the same format used by the LS_COLORS environment variable. Thus, 
-# "di=01;34" means that (non-empty) directories will be listed in bold blue.
-# Color codes are traditional ANSI escape sequences less the escape char and 
-# the final 'm'. 8 bit, 256 colors, and RGB colors are supported.
-# For more information consult the manpage.
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
 
-#Nord
-#Based on: https://github.com/arcticicestudio/nord-dircolors
+# Theme name: Nord
+# Based on: https://github.com/arcticicestudio/nord-dircolors
 
 FiletypeColors="di=01;34:nd=01;31:ed=02;34:ne=02;31:fi=0:ef=02;33:nf=02;31:ln=01;36:mh=04;36:or=00;31:pi=04;01;36:so=04;33:bd=01;33:cd=00;33:su=01;04;37:sg=01;04;37:ca=01;37:tw=01;37;44:ow=01;04;34:st=04;37;44:ex=01;36:ee=00;32:no=01;37;41:uf=34;47:"
 

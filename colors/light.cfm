@@ -1,4 +1,8 @@
-#light
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+#Theme name: Light
 FiletypeColors="di=01;34:nd=01;31:ed=00;34:ne=00;31:fi=00;30:ef=01;02;33:nf=00;31:ln=01;02;36:mh=30;46:or=00;02;36:pi=33;40:so=00;35:bd=01;02;33:cd=01;02;30:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=00;91:ee=00;02;91:no=00;31;47:uf=31;40:"
 
 InterfaceColors="el=01;02;93:mi=01;02;36:dl=01;34:tx=00;30:df=00;30:dc=00;30:wc=01;36:dh=00;36:li=01;32:si=01;34:ti=01;33:em=01;31:wm=01;33:nm=01;32:bm=01;36:"

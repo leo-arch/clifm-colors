@@ -1,4 +1,8 @@
-#Molokai
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+# Theme name: Molokai
 FiletypeColors="di=01;38;5;12:nd=01;38;5;90:ed=38;5;20:ne=38;5;90:fi=00;37:ef=38;5;242:nf=38;5;90:ln=01;32:mh=07;32:or=01;02;31:pi=01;36:so=01;35:bd=01;31:cd=01;31:su=37;41:sg=30;43:ca=30;41:tw=07;32:ow=34;42:st=37;44:ex=01;32:ee=00;32:no=00;31;47:uf=31;40:"
 
 InterfaceColors="el=01;38;5;208:mi=01;32:dl=01;38;5;12:tx=00;37:df=00;37:dc=00;37:wc=01;36:dh=00;36:li=01;32:si=01;34:ti=01;33:em=01;31:wm=01;33:nm=01;32:bm=01;36:"

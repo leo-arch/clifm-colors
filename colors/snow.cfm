@@ -1,4 +1,8 @@
-#snow
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+# Theme name: Snow
 FiletypeColors="di=01;38;5;16:nd=01;02;37:ed=01;02;37:ne=04;01;37:fi=38;5;16:ef=02;37:ex=01;38;5;16:ee=01;38;5;16:nf=04;01;37:ln=01;38;5;16:mh=04;37:or=01;38;5;196:pi=02;37;40:so=01;38;5;16:bd=01;38;5;16:cd=01;38;5;16:su=04;01;30;47:sg=01;30;47:ca=30;47:tw=01;37:ow=01;37:st=01;37:no=30;47:uf=30;47:"
 
 InterfaceColors="el=01;38;5;208:mi=01;38;5;208:dl=01;02;37:tx=00;30:df=00;30:dc=38;5;16:wc=01;36:dh=01;30:li=01;37:si=01;37:ti=01;37:em=01;37:wm=01;37:nm=01;37:bm=01;37:"

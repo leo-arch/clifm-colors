@@ -1,4 +1,8 @@
-#Dracula
+# Color scheme file for CliFM
+# Author: L. Abramovich
+# License: GPL3
+
+#Theme name: Dracula
 FiletypeColors="di=00;34:nd=00;31:ed=02;34:ne=02;31:fi=00;37:ef=02;37:ex=00;32:ee=00;32:nf=00;31:ln=00;36:mh=30;46:or=00;31:pi=00;33:so=00;35:bd=01;31:cd=01;31:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:no=00;31;47:uf=31;40:"
 
 InterfaceColors="el=00;37:mi=01;36:dl=01;34:tx=00;39:df=00;39:dc=00;39:wc=01;36:dh=00;36:li=01;32:si=01;34:ti=01;33:em=01;31:wm=01;33:nm=01;32:bm=01;36:"
