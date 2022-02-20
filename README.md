@@ -16,62 +16,50 @@
 ---
 
 ## Screenshots
+### Nord
+![clifm](screenshots/nord.png)
 
+### Amber-256
 ![clifm](screenshots/amber-256.png)
 
-**amber-256**
-
+### Aqua
 ![clifm](screenshots/aqua.png)
 
-**aqua**
-
+### Base16
 ![clifm](screenshots/base16.png)
 
-**base16**
-
+### CGA
 ![clifm](screenshots/cga.png)
 
-**cga**
-
+### Cold
 ![clifm](screenshots/cold.png)
 
-**cold**
-
+### Dracula
 ![clifm](screenshots/dracula.png)
 
-**dracula**
-
+### Forest
 ![clifm](screenshots/forest.png)
 
-**forest**
-
+### Green-256
 ![clifm](screenshots/green-256.png)
 
-**green-256**
-
+### Gruvbox
 ![clifm](screenshots/gruvbox.png)
 
-**gruvbox**
-
+### Molokai
 ![clifm](screenshots/molokai.png)
 
-**molokai**
-
+### Solarized-dark
 ![clifm](screenshots/solarized.png)
 
-**solarized**
-
+### Sunset
 ![clifm](screenshots/sunset.png)
 
-**sunset**
-
+### White-256
 ![clifm](screenshots/white-256.png)
 
-**white-256**
-
+### Zenburn
 ![clifm](screenshots/zenburn.png)
-
-**zenburn**
 
 ---
 
