@@ -34,9 +34,6 @@
 ### Cold
 ![clifm](screenshots/cold.png)
 
-### Dracula
-![clifm](screenshots/dracula.png)
-
 ### Green-256
 ![clifm](screenshots/green-256.png)
 
