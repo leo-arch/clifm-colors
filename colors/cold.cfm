@@ -1,12 +1,68 @@
-# Color scheme file for CliFM
+# Theme file for CliFM
+# Theme name: cold
 # Author: L. Abramovich
 # License: GPL3
 
-# Theme name: Cold
-FiletypeColors="di=01;38;2;00;152;219:nd=01;38;5;90:ed=00;38;2;00;152;219:ne=38;5;208:fi=38;2;230;230;242:ef=38;2;101;123;131;242:nf=00;38;5;91:ln=01;38;5;121:mh=07;38;5;121:or=00;38;5;121:pi=01;38;5;208:so=38;5;202:bd=01;38;5;252:cd=01;38;5;222:su=07;38;5;161:sg=07;38;5;208:ca=38;5;253;48;5;161:tw=07;38;2;00;152;219:ow=01;38;2;00;152;219;48;5;121:st=38;5;253;48;2;00;152;219:ex=01;38;5;161:ee=00;38;5;161:no=38;5;208;47:uf=38;5;208:"
+define B=00;38;2;00;152;219
+define BB=01;38;2;00;152;219
+define DB=02;38;2;00;152;219
+define BB2=01;38;2;30;87;156
 
-InterfaceColors="el=01;38;2;30;87;156:mi=01;38;2;00;152;219:dl=01;38;5;121:tx=00;38;2;12;230;242:df=00;38;2;12;230;242:fc=38;2;12;230;242:wc=01;38;2;12;230;242:li=01;38;2;00;152;219:si=01;38;2;00;152;219:ti=01;38;2;00;152;219:em=01;38;2;00;152;219:wm=01;38;2;00;152;219:nm=01;38;2;00;152;219:bm=01;00;38;5;121:"
+define M=00;38;5;90
+define BM=01;38;5;90
+define UBM=04;01;38;5;90
+define DM=00;02;38;5;90
+define UM=04;38;5;90
 
-ExtColors="*.tar=00;38;5;121:*.tgz=00;38;5;121:*.taz=00;38;5;121:*.lha=00;38;5;121:*.lz4=00;38;5;121:*.lzh=00;38;5;121:*.lzma=00;38;5;121:*.tlz=00;38;5;121:*.txz=00;38;5;121:*.tzo=00;38;5;121:*.t7z=00;38;5;121:*.zip=00;38;5;121:*.z=00;38;5;121:*.dz=00;38;5;121:*.gz=00;38;5;121:*.lrz=00;38;5;121:*.lz=00;38;5;121:*.lzo=00;38;5;121:*.xz=00;38;5;121:*.zst=00;38;5;121:*.tzst=00;38;5;121:*.bz2=00;38;5;121:*.bz=00;38;5;121:*.tbz=00;38;5;121:*.tbz2=00;38;5;121:*.tz=00;38;5;121:*.deb=00;38;5;121:*.rpm=00;38;5;121:*.rar=00;38;5;121:*.cpio=00;38;5;121:*.7z=00;38;5;121:*.rz=00;38;5;121:*.cab=00;38;5;121:*.jpg=00;38;5;121:*.jpeg=00;38;5;121:*.mjpg=00;38;5;121:*.mjpeg=00;38;5;121:*.gif=00;38;5;121:*.bmp=00;38;5;121:*.xbm=00;38;5;121:*.xpm=00;38;5;121:*.png=00;38;5;121:*.svg=00;38;5;121:*.pcx=00;38;5;121:*.mov=00;38;5;121:*.mpg=00;38;5;121:*.mpeg=00;38;5;121:*.m2v=00;38;5;121:*.mkv=00;38;5;121:*.webm=00;38;5;121:*.webp=00;38;5;121:*.ogm=00;38;5;121:*.mp4=00;38;5;121:*.m4v=00;38;5;121:*.mp4v=00;38;5;121:*.vob=00;38;5;121:*.wmv=00;38;5;121:*.flc=00;38;5;121:*.avi=00;38;5;121:*.flv=00;38;5;121:*.m4a=00;38;5;121:*.mid=00;38;5;121:*.midi=00;38;5;121:*.mp3=00;38;5;121:*.ogg=00;38;5;121:*.wav=00;38;5;121:"
+define R=00;38;5;161
+define BR=01;38;5;161
+define DR=00;02;38;5;161
+define RR=07;38;5;161
 
-DirIconsColor=00;38;5;121
+define G=00;38;5;121
+define BG=01;38;5;121
+define DG=00;02;38;5;121
+define RG=07;38;5;121
+define UDG=04;02;38;5;121
+define BDG=01;02;38;5;121
+
+define Y=00;38;5;222
+define BY=01;38;5;222
+define DY=00;02;38;5;222
+define RY=07;38;5;222
+
+define C=00;38;2;12;230;242
+define BC=01;38;2;12;230;242
+define DC=00;02;38;2;12;230;242
+define UDC=04;02;38;2;12;230;242
+
+define O=00;38;5;202
+define BO=01;38;5;202
+define DO=00;02;38;5;202
+define UO=04;38;5;202
+
+define W=00;38;5;253
+define BW=01;38;2;230;230;242
+define DW=00;02;38;2;230;230;242
+
+define BlR=38;5;253;48;5;161
+define KB=07;38;2;00;152;219
+define BlGr=01;38;2;00;152;219;48;5;121
+define WB=38;5;253;48;2;00;152;219
+define OW=00;38;5;202;47
+
+FiletypeColors="di=BB:nd=UBM:ed=DB:ne=UO:fi=W:ef=DW:nf=UM:ln=BG:mh=RG:or=UDM:pi=BO:so=O:bd=BW:cd=BY:su=RR:sg=RY:ca=BlR:tw=KB:ow=BlGr:st=WB:ex=BR:ee=R:no=OW:uf=UO:"
+
+InterfaceColors="el=BB2:mi=BB:dl=G:tx=W:df=W:fc=DB:wc=BC:li=BG:si=BB:ti=BC:em=BR:wm=BY:nm=BG:bm=BG:dd=B:dg=Y:dn=DW:dr=Y:do=G:dp=M:dw=R:dxd=G:dxr=C:dz=G:hb=G:hc=DR:hd=G:he=G:hn=M:hp=G:hq=Y:hr=R:hs=G:hv=BDG:sb=DY:sc=DR:sf=UDC:sh=DR:sp=DG:sx=DG:ti=BC:ts=UM:tt=BDC:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=B:ws6=B:ws7=B:ws8=B:xs=G:xf=R:
+
+ExtColors="*.tar=G:*.tgz=G:*.taz=G:*.lha=G:*.lz4=G:*.lzh=G:*.lzma=G:*.tlz=G:*.txz=G:*.tzo=G:*.t7z=G:*.zip=G:*.z=G:*.dz=G:*.gz=G:*.lrz=G:*.lz=G:*.lzo=G:*.xz=G:*.zst=G:*.tzst=G:*.bz2=G:*.bz=G:*.tbz=G:*.tbz2=G:*.tz=G:*.deb=G:*.rpm=G:*.rar=G:*.cpio=G:*.7z=G:*.rz=G:*.cab=G:*.jpg=G:*.jpeg=G:*.mjpg=G:*.mjpeg=G:*.gif=G:*.bmp=G:*.xbm=G:*.xpm=G:*.png=G:*.svg=G:*.pcx=G:*.mov=G:*.mpg=G:*.mpeg=G:*.m2v=G:*.mkv=G:*.webm=G:*.webp=G:*.ogm=G:*.mp4=G:*.m4v=G:*.mp4v=G:*.vob=G:*.wmv=G:*.flc=G:*.avi=G:*.flv=G:*.m4a=G:*.mid=G:*.midi=G:*.mp3=G:*.ogg=G:*.wav=G:"
+
+DirIconColor="C"
+
+Prompt="\[\e[00;38;5;253m\][\S\[\e[00;38;5;253m\]]\l \A \u:\H \[\e[01;38;2;00;152;219m\]\w\n\[\e[00;38;5;253m\]<\z\[\e[00;38;5;253m\]> \[\e[00;38;2;00;152;219m\]\$ \[\e[0m\]"
+
+WarningPromptStr="\[\e[0m\]\[\e[00;02;38;5;161m\](!) > "
+
+DividingLine="-"
+
+FzfTabOptions="--color='16,prompt:#0ce6f2,fg+:-1,pointer:#0034db,hl:#870087,hl+:#870087,gutter:-1,marker:#87ffaf:bold,query:#e6e6f2,info:#e6e6f2:dim' --marker='*' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"
