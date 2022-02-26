@@ -1,17 +1,29 @@
 # Theme file for CliFM
-# Theme name: solarized-dark
+# Theme name: solarized (based on https://github.com/altercation/solarized)
 # Author: L. Abramovich
 # License: GPL3
-
-define B=38;2;38;139;210
-define BB=1;38;2;38;139;210
-define DB=2;38;2;38;139;210
 
 define R=38;2;220;50;47
 define BR=1;38;2;220;50;47
 define DR=2;38;2;220;50;47
 define UBR=4;1;38;2;220;50;47
 define UDR=4;2;38;2;220;50;47
+
+define G=38;2;133;153;0
+define BG=1;38;2;133;153;0
+define DG=2;38;2;133;153;0
+
+define Y=38;2;181;137;0
+define BY=1;38;2;181;137;0
+define DY=2;38;2;181;137;0
+
+define B=38;2;38;139;210
+define BB=1;38;2;38;139;210
+define DB=2;38;2;38;139;210
+
+define M=38;2;211;54;130
+define BM=1;38;2;211;54;130
+define UM=1;38;2;211;54;130
 
 define C=38;2;42;161;152
 define BC=1;38;2;42;161;152
@@ -20,26 +32,15 @@ define RC=7;38;2;42;161;152
 define UDC=4;2;38;2;42;161;152
 define BDC=1;2;38;2;42;161;152
 
-define G=38;2;133;153;00
-define BG=1;38;2;133;153;00
-define DG=2;38;2;133;153;00
-
-define Y=38;2;181;137;00
-define BY=1;38;2;181;137;00
-define DY=2;38;2;181;137;00
-
-define M=38;2;108;113;196
-define BM=1;38;2;108;113;196
-define UM=1;38;2;108;113;196
-
 define W=38;2;238;232;213
 define DW=2;38;2;238;232;213
 define UBW=4;1;38;2;238;232;213
 
-define KR=38;2;00;43;54;48;2;220;50;47
-define KY=38;2;00;43;54;48;2;181;137;00
+define KR=38;2;7;54;66;48;2;220;50;47
+define KY=38;2;7;54;66;48;2;181;137;0
+define KG=38;2;7;54;66;48;2;133;153;0
 define URW=4;38;2;220;50;47;48;2;238;232;213
-define BlGr=38;2;38;139;210;48;2;133;153;00
+define BlGr=38;2;38;139;210;48;2;133;153;0
 define WB=38;2;238;232;213;48;2;38;139;210
 
 FiletypeColors="bd=BY:ca=KR:cd=BD:di=BB:ed=DB:ee=G:ef=DY:ex=BG:fi=W:ln=BC:mh=RC:nd=UBR:ne=UDR:nf=UDR:no=URW:or=UDC:ow=BlGr:pi=M:so=BM:su=WR:sg=KY:st=WB:tw=KG:uf=UBW:"
@@ -56,4 +57,4 @@ WarningPromptStr="\[\e[0m\]\[\e[0;2;38;2;220;50;47m\](!) > "
 
 DividingLine="-"
 
-FzfTabOptions="--color='dark,prompt:#2aa198,fg+:-1,pointer:#268bd2,hl:#6c71c4,hl+:#6c71c4,gutter:-1,marker:#859900:bold,query:#eee8d5,info:#eee8d5:dim' --marker='*' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"
+FzfTabOptions="--color='dark,prompt:#2aa198,fg+:-1,pointer:#268bd2,hl:#d33682,hl+:#d33682,gutter:-1,marker:#859900:bold,query:#eee8d5,info:#eee8d5:dim' --marker='*' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"
