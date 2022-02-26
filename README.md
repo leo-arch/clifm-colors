@@ -37,9 +37,6 @@
 ### Dracula
 ![clifm](screenshots/dracula.png)
 
-### Forest
-![clifm](screenshots/forest.png)
-
 ### Green-256
 ![clifm](screenshots/green-256.png)
 
