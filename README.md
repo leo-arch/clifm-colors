@@ -7,6 +7,7 @@
 ---
 
 ## Table of contents
+[Themes list](#themes-list) \
 [Screenshots](#screenshots) \
 [Installation](#installation) \
 [License](#license) \
@@ -14,6 +15,32 @@
 [Community](#community)
 
 ---
+
+## Themes list
+- [x] amber-256 (based on old amber monochrome monitors)
+- [x] aqua
+- [x] base16
+- [x] c64 (based on the Commodore64 color palette)
+- [x] cga (based on the CGA color palette)
+- [x] cold
+- [x] default
+- [x] dracula-vivid
+- [x] dracula
+- [x] gameboy (based on the GameBoy color palette)
+- [x] green-256 (based on the old green monochome monitors)
+- [x] gruvbox
+- [x] jellybeans-vivid
+- [x] light
+- [x] molokai
+- [x] nocolor
+- [x] nord
+- [x] onedark
+- [x] snow
+- [x] solarized
+- [x] sunset
+- [x] white-256
+- [x] white
+- [x] zenburn
 
 ## Screenshots
 ### Nord
