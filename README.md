@@ -14,6 +14,8 @@
 [Constributing](#contributing) \
 [Community](#community)
 
+**NOTE**: Since CLiFM version 1.6, [hex color codes](https://github.com/leo-arch/clifm/wiki/Customization#hex-color-codes) are also supported.
+
 ---
 
 ## Themes list
