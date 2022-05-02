@@ -12,9 +12,8 @@
 [Installation](#installation) \
 [License](#license) \
 [Constributing](#contributing) \
-[Community](#community)
-
-**NOTE**: Since CliFM version 1.6, [hex color codes](https://github.com/leo-arch/clifm/wiki/Customization#hex-color-codes) are also supported.
+[Community](#community) \
+[Creating themes](https://github.com/leo-arch/clifm/wiki/Customization#theming)
 
 ---
 
