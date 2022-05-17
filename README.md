@@ -87,23 +87,22 @@
 
 ## Installation
 
-For Archlinux users: 
+#### 1.a For Archlinux users: 
 
-1) Install the package (it is available on the [AUR](https://aur.archlinux.org/packages/clifm-colors-git))
-2) Color schemes are installed in `$XDG_DATA_DIRS/clifm/colors`. You can create modified versions of these color schemes by copying them to the `colors` directory of your CLiFM local directory (`$XDG_CONFIG_HOME/clifm` or `$HOME/.config/clifm`) and editing them to your liking.
-3) Now run CliFM and use the `cs` command to change color schemes.
+Install the package (it is available on the [AUR](https://aur.archlinux.org/packages/clifm-colors-git)). Color schemes are installed in `$XDG_DATA_DIRS/clifm/colors` (usually `/usr/share/clifm/colors`).
 
-If not using Arch:
+#### 1.b If not using Arch:
 
-1) Clone this repo:
+a) Clone this repo:
 
        git clone https://github.com/leo-arch/clifm-colors
 
-2) cd into the colors directory and copy the color schemes (.cfm files) into the colors directory of your CLiFM local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`). If you so prefer, you can copy these files to `$XDG_DATA_DIRS/clifm/colors` (usually, `/usr/share/clifm/colors`) as well.
+b) cd into the colors directory and copy the color schemes (`.cfm` files) into the colors directory of your _CliFM_ local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`).
 
-       cp colors/*.cfm $XDG_CONFIG_HOME/clifm/colors
+#### 2. Set your theme
+Once the theme is copied, set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in _ClifM_, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
 
-3) Set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in CLifM, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc`.
+**Note**: You can create modified/custom versions of these color schemes by copying them into the appropriate directory and editing them to your liking via a simple text editor. For more detailed information consult our [wiki](https://github.com/leo-arch/clifm/wiki/Customization#colors).
 
 ---
 
