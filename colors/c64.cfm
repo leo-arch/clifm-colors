@@ -4,7 +4,7 @@
 # License: GPL3
 
 # Color palette taken from https://www.c64-wiki.com/wiki/Color
-define BD=01 # Bold
+define BD=0;1;38;2;187;187;187 # Bold
 
 define K=00;38;2;0;0;0 #000000 Black
 define W=00;38;2;255;255;255 #ffffff White
@@ -32,7 +32,7 @@ define DB2=00;02;38;2;0;0;170 #0000aa Bold blue
 define B=00;38;2;0;136;255 #0000aa Blue
 define BB=01;38;2;0;136;255 #0000aa Bold blue
 define DB=00;02;38;2;0;136;255 #0000aa Dimmed blue
-define BDB=01;02;38;2;0;136;255 #0000aa Dimmed blue
+define BDB=01;02;38;2;0;136;255 #0000aa Bold dimmed blue
 
 define Y=00;38;2;238;238;119 #eeee77 Yellow
 define DY=00;02;38;2;238;238;119 #eeee77 Dimmed yellow
@@ -58,8 +58,10 @@ ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz
 
 DirIconColor="Y"
 
+PromptStyle=default
 Prompt="\[\e[00;38;2;187;187;187m\][\S\[\e[00;38;2;187;187;187m\]]\l \A \u:\H \[\e[01;02;38;2;170;255;238m\]\w\n\[\e[00;38;2;187;187;187m\]<\z\[\e[00;38;2;187;187;187m\]> \[\e[00;38;2;0;136;255m\]\$ \[\e[00;38;2;187;187;187m\]"
 
+WarningPrompt=true
 WarningPromptStr="\[\e[00;38;2;187;187;187m\]\[\e[00;02;38;2;255;119;119m\](!) > "
 
 DividingLine="-"
