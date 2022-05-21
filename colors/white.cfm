@@ -2,11 +2,29 @@
 # Author: L. Abramovich
 # License: GPL3
 
+define W=00;37
+define BW=00;01;37
+define DW=00;02;37
+define UW=00;04;37
+define BDW=00;01;02;37
+define UDW=04;02;37
+define UBW=04;01;37
+
 # Theme name: White
-FiletypeColors="di=01;37:nd=01;02;37:ed=01;02;37:ne=04;01;37:fi=00;37:ef=02;37:ex=00;37:ee=00;37:nf=04;01;37:ln=04;37:mh=04;37:or=04;02;37:pi=02;37;40:so=00;37:bd=01;37:cd=01;37:su=04;01;30;47:sg=01;30;47:ca=30;47:tw=01;37:ow=01;37:st=01;37:no=30;47:uf=30;47:"
+FiletypeColors="di=BW:nd=BDW:ed=BDW:ne=UBW:fi=W:ef=DW:ex=W:ee=W:nf=UBW:ln=UW:mh=UW:or=UDW:pi=02;37;40:so=W:bd=BW:cd=BW:su=04;01;30;47:sg=01;30;47:ca=30;47:tw=BW:ow=BW:st=BW:no=30;47:uf=30;47:"
 
-InterfaceColors="el=01;02;37:mi=01;37:dl=01;02;37:tx=00;39:df=00;39:fc=00;39:wc=01;36:li=01;37:si=01;37:ti=01;37:em=01;37:wm=01;37:nm=01;37:bm=01;37:"
+InterfaceColors="dd=BW:dg=W:dn=DW:dr=W:do=W:dp=W:dw=BW:dxd=W:dxr=UW:dz=W:el=BDW:fc=DW:mi=BW:dl=BDW:tx=W:df=W:li=BW:si=BW:ti=BW:em=BW:wm=BW:nm=BW:bm=BW:ts=UW:hb=C:hc=DR:hd=W:he=BW:hn=BW:hp=BW:hq=BW:hr=BW:hs=BW:hv=BW:sb=DW:sc=DW:sf=DW:sh=DW:sp=DW:sx=DW:tt=DW:wc=BW:wp=DW:ws1=BW:ws2=W:ws3=BW:ws4=W:ws5=W:ws6=W:ws7=W:ws8=W:xs=W:xf=BW:"
 
-ExtColors="*.tar=00;37:*.tgz=00;37:*.taz=00;37:*.lha=00;37:*.lz4=00;37:*.lzh=00;37:*.lzma=00;37:*.tlz=00;37:*.txz=00;37:*.tzo=00;37:*.t7z=00;37:*.zip=00;37:*.z=00;37:*.dz=00;37:*.gz=00;37:*.lrz=00;37:*.lz=00;37:*.lzo=00;37:*.xz=00;37:*.zst=00;37:*.tzst=00;37:*.bz2=00;37:*.bz=00;37:*.tbz=00;37:*.tbz2=00;37:*.tz=00;37:*.deb=00;37:*.rpm=00;37:*.rar=00;37:*.cpio=00;37:*.7z=00;37:*.rz=00;37:*.cab=00;37:*.jpg=00;37:*.jpeg=00;37:*.mjpg=00;37:*.mjpeg=00;37:*.gif=00;37:*.bmp=00;37:*.xbm=00;37:*.xpm=00;37:*.png=00;37:*.svg=00;37:*.pcx=00;37:*.mov=00;37:*.mpg=00;37:*.mpeg=00;37:*.m2v=00;37:*.mkv=00;37:*.webm=00;37:*.webp=00;37:*.ogm=00;37:*.mp4=00;37:*.m4v=00;37:*.mp4v=00;37:*.vob=00;37:*.wmv=00;37:*.flc=00;37:*.avi=00;37:*.flv=00;37:*.m4a=00;37:*.mid=00;37:*.midi=00;37:*.mp3=00;37:*.ogg=00;37:*.wav=00;37:"
+ExtColors="*.tar=W:*.tgz=W:*.taz=W:*.lha=W:*.lz4=W:*.lzh=W:*.lzma=W:*.tlz=W:*.txz=W:*.tzo=W:*.t7z=W:*.zip=W:*.z=W:*.dz=W:*.gz=W:*.lrz=W:*.lz=W:*.lzo=W:*.xz=W:*.zst=W:*.tzst=W:*.bz2=W:*.bz=W:*.tbz=W:*.tbz2=W:*.tz=W:*.deb=W:*.rpm=W:*.rar=W:*.cpio=W:*.7z=W:*.rz=W:*.cab=W:*.jpg=W:*.jpeg=W:*.mjpg=W:*.mjpeg=W:*.gif=W:*.bmp=W:*.xbm=W:*.xpm=W:*.png=W:*.svg=W:*.pcx=W:*.mov=W:*.mpg=W:*.mpeg=W:*.m2v=W:*.mkv=W:*.webm=W:*.webp=W:*.ogm=W:*.mp4=W:*.m4v=W:*.mp4v=W:*.vob=W:*.wmv=W:*.flc=W:*.avi=W:*.flv=W:*.m4a=W:*.mid=W:*.midi=W:*.mp3=W:*.ogg=W:*.wav=W:"
 
 DirIconsColor=01;02;37
+
+PromptStyle=default
+Prompt="\[\e[0;37m\][\S\[\e[0;37m\]]\l \A \u:\H \[\e[1;37m\]\w\[\e[0;37m\]\n\[\e[0;37m\]<\z\[\e[0;37m\]> \[\e[0;1;37m\]\$ \[\e[0;37m\]"
+
+WarningPrompt=true
+WarningPromptStr="\[\e[00;02;37m\](!) > "
+
+DividingLine="-"
+
+FzfTabOptions="--color='bw,fg:7,fg+:7,hl:7:underline,hl+:7,info:7,marker:7:bold,prompt:7:bold,pointer:7:bold,query:7' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"
