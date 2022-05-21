@@ -4,7 +4,7 @@
 # License: GPL3
 
 define D=0;38;2;171;178;191
-define BD=01
+define BD=0;1;38;2;171;178;191
 
 define R=0;38;2;224;108;117
 define BR=1;38;2;224;108;117
@@ -53,9 +53,11 @@ ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz
 
 DirIconColor="Y"
 
+PromptStyle=default
 Prompt="\[\e[0;38;2;171;178;191m\][\S\[\e[0;38;2;171;178;191m\]]\l \A \u:\H \[\e[0;38;2;86;182;194m\]\w\n\[\e[0;38;2;171;178;191m\]<\z\[\e[0;38;2;171;178;191m\]> \[\e[0;38;2;97;175;239m\]\$ \[\e[0m\]"
 
-WarningPromptStr="\[\e[0m\]\[\e[0;2;38;2;224;108;117m\](!) > "
+WarningPrompt=true
+WarningPromptStr="\[\e[0;2;38;2;224;108;117m\](!) > "
 
 DividingLine="-"
 
