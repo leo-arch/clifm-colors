@@ -1,8 +1,8 @@
 # clifm-colors
-> Some color schemes for [CliFM file manager](https://github.com/leo-arch/clifm)
+> Some color schemes for the [CliFM file manager](https://github.com/leo-arch/clifm)
 
-[![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=arch-linux&style=flat)](https://aur.archlinux.org/packages/clifm/)
-[![License](https://img.shields.io/github/license/leo-arch/clifm?color=333333&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
+[![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=archlinux&style=flat)](https://aur.archlinux.org/packages/clifm-colors-git)
+[![License](https://img.shields.io/github/license/leo-arch/clifm?color=green&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
 
 ---
 
@@ -74,12 +74,6 @@
 ### Solarized-dark
 ![clifm](screenshots/solarized.png)
 
-### Sunset
-![clifm](screenshots/sunset.png)
-
-### White-256
-![clifm](screenshots/white-256.png)
-
 ### Zenburn
 ![clifm](screenshots/zenburn.png)
 
@@ -100,7 +94,7 @@ a) Clone this repo:
 b) cd into the colors directory and copy the color schemes (`.cfm` files) into the colors directory of your _CliFM_ local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`).
 
 #### 2. Set your theme
-Once the theme is copied, set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in _ClifM_, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
+Once the theme is copied, set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in _CliFM_, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
 
 **Note**: You can create modified/custom versions of these color schemes by copying them into the appropriate directory and editing them to your liking via a simple text editor. For more detailed information consult our [wiki](https://github.com/leo-arch/clifm/wiki/Customization#colors).
 
@@ -119,4 +113,4 @@ Yes. Try these color schemes, modify them, and even create your own themes. If y
 
 ## Community
 Join CliFM's [Gitter discussion room](https://gitter.im/leo-arch/clifm) and let us know what you think: ideas, comments, observations and questions are always welcome. \
-The [Discussions](https://github.com/leo-arch/clifm/discussions) section of CliFM is also open to input.
+The [Discussions](https://github.com/leo-arch/clifm/discussions) section of _CliFM_ is also open to input.
