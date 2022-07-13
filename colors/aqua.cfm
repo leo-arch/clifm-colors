@@ -6,52 +6,52 @@
 define D=00;37
 define BD=01;02;37
 
-define R=00;31 # Red
-define BR=01;31 # Bold red
-define DR=00;02;31 # Dimmed red
-define UDR=04;02;31 # Underlined dimmed red
-define UBR=04;01;31 # Underlined bold red
+define R=31 # Red
+define BR=1;31 # Bold red
+define DR=2;31 # Dimmed red
+define UDR=4;02;31 # Underlined dimmed red
+define UBR=4;01;31 # Underlined bold red
 
-define G=00;32 # Green
-define BG=01;32 # Bold green
-define DG=00;02;32 # Dimmed green
+define G=32 # Green
+define BG=1;32 # Bold green
+define DG=2;32 # Dimmed green
 
-define Y=00;33 # Yellow
-define BY=01;33 # Bold yellow
-define DY=00;02;33 # Dimmed yellow
-define RY=07;33 # Reverse yellow
-define UDY=04;02;33 # Underlined dimmed yellow
+define Y=33 # Yellow
+define BY=1;33 # Bold yellow
+define DY=2;33 # Dimmed yellow
+define RY=7;33 # Reverse yellow
+define UDY=4;02;33 # Underlined dimmed yellow
 
-define B=00;34 # Blue
-define BB=01;34 # Bold blue
-define DB=00;02;34 # Dimmed blue
+define B=34 # Blue
+define BB=1;34 # Bold blue
+define DB=2;34 # Dimmed blue
 
-define M=00;35 # Magenta
-define BM=01;35 # Bold Magenta
-define DM=00;02;35 # Dimmed magenta
-define UM=04;35 # Underlined magenta
+define M=35 # Magenta
+define BM=1;35 # Bold Magenta
+define DM=2;35 # Dimmed magenta
+define UM=4;35 # Underlined magenta
 
-define C=00;36 # Cyan
-define BC=01;36 # Bold cyan
-define DC=00;02;36 # Dimmed cyan
-define UDC=04;02;36 # Underlined dimmed cyan
-define BDC=01;02;36 # Bold dimmed cyan
+define C=36 # Cyan
+define BC=1;36 # Bold cyan
+define DC=2;36 # Dimmed cyan
+define UDC=4;02;36 # Underlined dimmed cyan
+define BDC=1;02;36 # Bold dimmed cyan
 
-define W=00;37 # White
-define DW=00;02;37 # Dimmed white
-define BDW=01;02;37 # Bold dimmed white
+define W=37 # White
+define DW=2;37 # Dimmed white
+define BDW=1;02;37 # Bold dimmed white
 
 # Foreground-background combinations
-define URW=04;31;47 # Red foreground, white background
-define UBW=04;34;47 # Blue foreground, white background
-define WR=00;37;41 # White foreground, red background
+define URW=4;31;47 # Red foreground, white background
+define UBW=4;34;47 # Blue foreground, white background
+define WR=37;41 # White foreground, red background
 # K stands for black (B is used for Blue)
-define KY=00;30;43 # Black foreground, yellow background
-define KR=00;30;41 # Black foreground, red background
-define KG=00;30;42 # Black foreground, green background
+define KY=30;43 # Black foreground, yellow background
+define KR=30;41 # Black foreground, red background
+define KG=30;42 # Black foreground, green background
 # BG is already used for bold green
-define BlGr=00;34;42 # Blue foreground, green background
-define WB=00;37;44 # white foreground, blue background
+define BlGr=34;42 # Blue foreground, green background
+define WB=37;44 # white foreground, blue background
 
 FiletypeColors="bd=BR:ca=KR:cd=BR:di=BC:ed=DC:ee=G:ef=DW:ex=BG:fi=W:ln=BY:mh=RY:nd=UBR:ne=UDR:nf=UDR:no=URW:or=UDY:ow=BlGr:pi=M:so=BM:su=WR:sg=KY:st=WB:tw=KG:uf=UBW:"
 
@@ -61,9 +61,11 @@ ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz
 
 DirIconColor="C"
 
+PromptStyle=default
 Prompt="\[\e[0;37m\][\S\[\e[0;37m\]]\l \A \u:\H \[\e[0;36m\]\w\n\[\e[0;37m\]<\z\[\e[0;37m\]> \[\e[0;34m\]\$ \[\e[0m\]"
 
-WarningPromptStr="\[\e[0m\]\[\e[00;02;31m\](!) > "
+WarningPrompt=true
+WarningPromptStr="\[\e[00;02;31m\](!) > "
 
 DividingLine="-"
 

@@ -6,49 +6,49 @@
 # Color palette taken from https://www.c64-wiki.com/wiki/Color
 define BD=0;1;38;2;187;187;187 # Bold
 
-define K=00;38;2;0;0;0 #000000 Black
-define W=00;38;2;255;255;255 #ffffff White
+define K=38;2;0;0;0 #000000 Black
+define W=38;2;255;255;255 #ffffff White
 
-define R=00;38;2;136;0;0 #880000 Red
-define R2=00;38;2;255;119;119 #880000 Red
-define BR=01;38;2;255;119;119 #880000 Red
-define DR=00;02;38;2;255;119;119 #880000 Dimmed Red
+define R=38;2;136;0;0 #880000 Red
+define R2=38;2;255;119;119 #880000 Red
+define BR=1;38;2;255;119;119 #880000 Red
+define DR=2;38;2;255;119;119 #880000 Dimmed Red
 
-define C=00;38;2;170;255;238 #aaffee Cyan
-define BC=01;38;2;170;255;238 #aaffee Bold cyan
-define RC=02;07;38;2;170;255;238 #aaffee Reverse cyan
-define DC=00;02;38;2;170;255;238 #aaffee Dimmed cyan
-define DBC=01;02;38;2;170;255;238 #aaffee Dimmed bold cyan
+define C=38;2;170;255;238 #aaffee Cyan
+define BC=1;38;2;170;255;238 #aaffee Bold cyan
+define RC=2;07;38;2;170;255;238 #aaffee Reverse cyan
+define DC=2;38;2;170;255;238 #aaffee Dimmed cyan
+define DBC=1;02;38;2;170;255;238 #aaffee Dimmed bold cyan
 
-define M=00;38;2;204;68;204 #cc44cc Violet
-define BM=01;38;2;204;68;204 #cc44cc Violet
+define M=38;2;204;68;204 #cc44cc Violet
+define BM=1;38;2;204;68;204 #cc44cc Violet
 
-define G=00;02;38;2;0;204;85 #00cc55 Green
-define BG=01;38;2;0;204;85 #00cc55 Bold green
-define DG=00;02;38;2;0;204;85 #00cc55 Bold green
+define G=2;38;2;0;204;85 #00cc55 Green
+define BG=1;38;2;0;204;85 #00cc55 Bold green
+define DG=2;38;2;0;204;85 #00cc55 Bold green
 
-define DB2=00;02;38;2;0;0;170 #0000aa Bold blue
+define DB2=2;38;2;0;0;170 #0000aa Bold blue
 
-define B=00;38;2;0;136;255 #0000aa Blue
-define BB=01;38;2;0;136;255 #0000aa Bold blue
-define DB=00;02;38;2;0;136;255 #0000aa Dimmed blue
-define BDB=01;02;38;2;0;136;255 #0000aa Bold dimmed blue
+define B=38;2;0;136;255 #0000aa Blue
+define BB=1;38;2;0;136;255 #0000aa Bold blue
+define DB=2;38;2;0;136;255 #0000aa Dimmed blue
+define BDB=1;02;38;2;0;136;255 #0000aa Bold dimmed blue
 
-define Y=00;38;2;238;238;119 #eeee77 Yellow
-define DY=00;02;38;2;238;238;119 #eeee77 Dimmed yellow
+define Y=38;2;238;238;119 #eeee77 Yellow
+define DY=2;38;2;238;238;119 #eeee77 Dimmed yellow
 
-define LG=00;38;2;187;187;187 #bbbbbb Light grey
-define DW=02;38;2;187;187;187 #bbbbbb Dimmed grey
+define LG=38;2;187;187;187 #bbbbbb Light grey
+define DW=2;38;2;187;187;187 #bbbbbb Dimmed grey
 
-define WR=00;38;2;187;187;187;48;2;136;0;0
-define KY=00;38;2;0;0;0;48;2;238;238;119
-define KO=00;38;2;255;255;255;48;2;221;136:85
-define KR=00;38;2;0;0;0;48;2;136;0;0
-define KG=00;38;2;0;0;0;48;2;0;204;85
-define WB=00;38;2;187;187;187;48;2;0;0;170
-define BW=00;38;2;0;0;170;48;2;187;187;187
+define WR=38;2;187;187;187;48;2;136;0;0
+define KY=38;2;0;0;0;48;2;238;238;119
+define KO=38;2;255;255;255;48;2;221;136:85
+define KR=38;2;0;0;0;48;2;136;0;0
+define KG=38;2;0;0;0;48;2;0;204;85
+define WB=38;2;187;187;187;48;2;0;0;170
+define BW=38;2;0;0;170;48;2;187;187;187
 
-define BO=01;38;2;221;136;85
+define BO=1;38;2;221;136;85
 
 FiletypeColors="di=BDB:nd=BR:ed=DB:ne=DR:fi=LG:ef=DW:nf=DR:ln=DBC:mh=RC:or=DC:pi=M:so=BM:bd=BY:cd=BD:su=WR:sg=KO:ca=KR:tw=KG:ow=BlGr:st=WB:ex=G:ee=G:no=:uf=BW:"
 
