@@ -1,5 +1,5 @@
 # clifm-colors
-> Some color schemes for the [CliFM file manager](https://github.com/leo-arch/clifm)
+> Extra color schemes for the [CliFM file manager](https://github.com/leo-arch/clifm)
 
 [![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=archlinux&style=flat)](https://aur.archlinux.org/packages/clifm-colors-git)
 [![License](https://img.shields.io/github/license/leo-arch/clifm?color=green&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
@@ -20,41 +20,23 @@
 ## Themes list
 - [x] amber-256 (based on old amber monochrome monitors)
 - [x] aqua
-- [x] base16
 - [x] c64 (based on the Commodore64 color palette)
 - [x] cga (based on the CGA color palette)
 - [x] cold
-- [x] default
-- [x] dracula-vivid
-- [x] dracula
 - [x] gameboy (based on the GameBoy color palette)
 - [x] green-256 (based on the old green monochome monitors)
-- [x] gruvbox
-- [x] jellybeans-vivid
-- [x] light
-- [x] molokai
-- [x] nocolor
-- [x] nord
-- [x] onedark
 - [x] snow
-- [x] solarized
 - [x] sunset
 - [x] white-256
 - [x] white
-- [x] zenburn
 
 ## Screenshots
-### Nord
-![clifm](screenshots/nord.png)
 
 ### Amber-256
 ![clifm](screenshots/amber-256.png)
 
 ### Aqua
 ![clifm](screenshots/aqua.png)
-
-### Base16
-![clifm](screenshots/base16.png)
 
 ### CGA
 ![clifm](screenshots/cga.png)
@@ -64,18 +46,6 @@
 
 ### Green-256
 ![clifm](screenshots/green-256.png)
-
-### Gruvbox
-![clifm](screenshots/gruvbox.png)
-
-### Molokai
-![clifm](screenshots/molokai.png)
-
-### Solarized-dark
-![clifm](screenshots/solarized.png)
-
-### Zenburn
-![clifm](screenshots/zenburn.png)
 
 ---
 
