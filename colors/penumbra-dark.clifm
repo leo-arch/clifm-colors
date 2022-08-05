@@ -39,8 +39,6 @@ define BDC=1;2;38;2;0;160;190 # Bold dimmed cyan
 define DW=2;38;2;190;190;190 # Dimmed white
 define UDW=2;4;38;2;190;190;190 # Underlined dimmed white
 
-# black: 38;2;36;39;43
-
 # Foreground-background combinations
 define URW=4;38;2;203;116;89;48;2;190;190;190 # Red foreground, white background
 define WR=38;2;190;190;190;48;2;203;116;89 # White foreground, red background
@@ -52,6 +50,9 @@ define KG=38;2;36;39;43;48;2;70;164;115 # Black foreground, green background
 define BlGr=38;2;126;135;214;48;2;70;164;115 # Blue foreground, green background
 define WB=38;2;190;190;190;48;2;126;135;214 # white foreground, blue background
 
+# FiletypeColors defines the color used for file names when listing files, 
+# just as InterfaceColors defines colors for CliFM's interface.
+# Consult the manpage for information about these codes.
 FiletypeColors="bd=BY:ca=KR:cd=BD:di=BB:ed=DB:ee=G:ef=DY:ex=BG:fi=D:ln=BC:mh=RC:nd=UBR:ne=UDR:nf=UDR:no=URW:or=UDC:ow=BlGr:pi=M:sg=KY:so=BM:st=WB:su=WR:tw=KG:uf=UDW:"
 
 InterfaceColors="bm=BG:dd=B:df=D:dg=Y:dl=DW:dn=DW:dr=Y:do=C:dp=M:dw=R:dxd=G:dxr=C:dz=G:el=C:em=BR:fc=DB:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:li=BG:mi=BC:nm=BG:si=BB:sb=DY:sc=DR:sf=UDC:sh=DM:sp=DR:sx=DG:ti=BC:ts=UM:tt=BDC:tx=D:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
@@ -66,12 +67,16 @@ DirIconColor="Y"
 # prompts. Enter 'prompt --help' for more information
 Prompt="\[\e[38;2;190;190;190m\][\[\e[0;38;2;0;160;190m\]\S\[\e[38;2;190;190;190m\]]\l \A \u:\H \[\e[0;38;2;0;160;190m\]\w\n\[\e[38;2;190;190;190m\]<\z\[\e[38;2;190;190;190m\]> \[\e[0;38;2;126;135;214m\]\$ \[\e[38;2;190;190;190m\]"
 
-# Override prompt values
-#Prompt=""
-#Notifications=
-#EnableWarningPrompt=
-#WarningPrompt=""
+WarningPrompt="\[\e[0;2;38;2;203;116;89m\](!) > "
 
+# The string used to construct the line dividing the list of files and
+# the prompt (Unicode is supported). Possible values:
+# "0": Print just an empty line
+# "C": C is a single char. This char is printed up to the end of the screen
+# "CCC": 3 or more chars. Only these chars (no more) will be printed
+# "": Print a special line drawn with box-drawing characters (not
+#     supported by all terminals/consoles)
+# The color of this line is controlled by the 'dl' code in InterfaceColors
 DividingLine="-"
 
 # If FZF TAB completion mode is enabled, pass these options to fzf:
