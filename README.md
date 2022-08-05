@@ -25,7 +25,7 @@
 - [x] cold
 - [x] gameboy (based on the GameBoy color palette)
 - [x] green-256 (based on the old green monochome monitors)
-- [x] penumbra-dark
+- [x] penumbra-dark (based on the [penumbra color scheme](https://github.com/nealmckee/penumbra), by nealmckee)
 - [x] white-256
 - [x] white
 
