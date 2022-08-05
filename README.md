@@ -25,7 +25,7 @@
 - [x] cold
 - [x] gameboy (based on the GameBoy color palette)
 - [x] green-256 (based on the old green monochome monitors)
-- [x] penumbra-dark
+- [x] penumbra-dark (based on the [penumbra color scheme](https://github.com/nealmckee/penumbra), by nealmckee)
 - [x] white-256
 - [x] white
 
@@ -65,7 +65,13 @@ b) cd into the colors directory and copy the color schemes (`.clifm` files) into
 #### 2. Set your theme
 Once the theme is copied, set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in _CliFM_, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
 
-**Note**: You can create modified/custom versions of these color schemes by copying them into the appropriate directory and editing them to your liking via a simple text editor. For more detailed information consult our [Wiki](https://github.com/leo-arch/clifm/wiki/Customization#colors).
+**Note**: If using a version of _CliFM_ prior to 1.6.1, the extension of the color theme files must be changed from `.clifm` to `.cfm`. Follow [this link](https://github.com/leo-arch/clifm/wiki/Specifics#new-extension-for-configuration-files) for more details on this issue.
+
+---
+
+## Creating new themes
+
+You can create modified/custom versions of these color schemes by copying them into the appropriate directory and editing them to your liking via a simple text editor. For more detailed information consult the [_CliFM_ Wiki](https://github.com/leo-arch/clifm/wiki/Customization#colors).
 
 ---
 
