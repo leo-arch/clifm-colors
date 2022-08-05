@@ -25,6 +25,7 @@
 - [x] cold
 - [x] gameboy (based on the GameBoy color palette)
 - [x] green-256 (based on the old green monochome monitors)
+- [x] penumbra-dark
 - [x] white-256
 - [x] white
 
