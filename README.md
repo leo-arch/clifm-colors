@@ -59,7 +59,7 @@ a) Clone this repo:
 
        git clone https://github.com/leo-arch/clifm-colors
 
-b) cd into the colors directory and copy the color schemes (`.cfm` files) into the colors directory of your _CliFM_ local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`).
+b) cd into the colors directory and copy the color schemes (`.clifm` files) into the colors directory of your _CliFM_ local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`).
 
 #### 2. Set your theme
 Once the theme is copied, set the desired color scheme, either via command line (with the `--color-scheme` option) or, once in _CliFM_, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
