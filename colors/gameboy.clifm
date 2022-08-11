@@ -11,10 +11,7 @@ ExtColors="*.tar=01;38;2;52;104;86:*.tgz=01;38;2;52;104;86:*.taz=01;38;2;52;104;
 
 DirIconColor="0;33"
 
-PromptStyle=default
 Prompt="\[\e[00;38;2;224;248;208m\][\S\[\e[00;38;2;224;248;208m\]]\l \A \u:\H \[\e[01;38;2;136;192;112m\]\w\n\[\e[00;38;2;224;248;208m\]<\z\[\e[00;38;2;224;248;208m\]> \[\e[0;38;2;52;104;86m\]\$ \[\e[00;38;2;224;248;208m\]"
-
-WarningPrompt=true
-WarningPromptStr="\[\e[00;38;2;52;104;86m\](!) > "
+WarningPrompt="\[\e[00;38;2;52;104;86m\](!) > "
 
 FzfTabOptions="--color='16,prompt:#346856,fg+:-1,pointer:#88c070,hl:#88c070,hl+:#88c070,gutter:-1,marker:#88c070:bold,info:#88c070:dim,query:#e0f8d0' --marker='*' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"

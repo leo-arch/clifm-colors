@@ -17,13 +17,10 @@ InterfaceColors="dd=BW:dg=W:dn=DW:dr=W:do=W:dp=W:dw=BW:dxd=W:dxr=UW:dz=W:el=BDW:
 
 ExtColors="*.tar=W:*.tgz=W:*.taz=W:*.lha=W:*.lz4=W:*.lzh=W:*.lzma=W:*.tlz=W:*.txz=W:*.tzo=W:*.t7z=W:*.zip=W:*.z=W:*.dz=W:*.gz=W:*.lrz=W:*.lz=W:*.lzo=W:*.xz=W:*.zst=W:*.tzst=W:*.bz2=W:*.bz=W:*.tbz=W:*.tbz2=W:*.tz=W:*.deb=W:*.rpm=W:*.rar=W:*.cpio=W:*.7z=W:*.rz=W:*.cab=W:*.jpg=W:*.jpeg=W:*.mjpg=W:*.mjpeg=W:*.gif=W:*.bmp=W:*.xbm=W:*.xpm=W:*.png=W:*.svg=W:*.pcx=W:*.mov=W:*.mpg=W:*.mpeg=W:*.m2v=W:*.mkv=W:*.webm=W:*.webp=W:*.ogm=W:*.mp4=W:*.m4v=W:*.mp4v=W:*.vob=W:*.wmv=W:*.flc=W:*.avi=W:*.flv=W:*.m4a=W:*.mid=W:*.midi=W:*.mp3=W:*.ogg=W:*.wav=W:"
 
-DirIconsColor=01;02;37
+DirIconColor=01;02;37
 
-PromptStyle=default
 Prompt="\[\e[0;37m\][\S\[\e[0;37m\]]\l \A \u:\H \[\e[1;37m\]\w\[\e[0;37m\]\n\[\e[0;37m\]<\z\[\e[0;37m\]> \[\e[0;1;37m\]\$ \[\e[0;37m\]"
-
-WarningPrompt=true
-WarningPromptStr="\[\e[00;02;37m\](!) > "
+WarningPrompt="\[\e[00;02;37m\](!) > "
 
 DividingLine="-"
 
