@@ -70,6 +70,8 @@ ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz
 DirIconColor="Y"
 
 Prompt="\[\e[38;2;187;187;187m\][\[\e[0;38;2;102;204;238m\]\S\[\e[38;2;187;187;187m\]]\l \A \u:\H \[\e[0;38;2;102;204;238m\]\w\n\[\e[38;2;187;187;187m\]<\z\[\e[38;2;187;187;187m\]> \[\e[0;38;2;0;119;187m\]\$ \[\e[38;2;187;187;187m\]"
+Notifications=true
+EnableWarningPrompt=true
 WarningPrompt="\[\e[00;02;38;2;238;102;119m\](!) > "
 
 DividingLine="-"

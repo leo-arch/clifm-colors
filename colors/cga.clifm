@@ -13,6 +13,8 @@ ExtColors="*.tar=01;37:*.tgz=01;37:*.taz=01;37:*.lha=01;37:*.lz4=01;37:*.lzh=01;
 DirIconColor=01;35
 
 Prompt="\[\e[0;97m\][\S\[\e[0;97m\]]\l \A \u:\H \[\e[0;36m\]\w\n\[\e[0;97m\]<\z\[\e[0;97m\]> \[\e[0;35m\]\$ \[\e[0;97m\]"
+Notifications=true
+EnableWarningPrompt=true
 WarningPrompt="\[\e[00;02;35m\](!) > "
 
 FzfTabOptions="--color='16,prompt:6,fg+:-1,pointer:6,hl:6:underline,hl+:6:underline,gutter:-1,marker:6:bold,query:7,info:7:dim' --marker='*' --bind tab:accept,right:accept,left:abort --inline-info --layout=reverse-list"
