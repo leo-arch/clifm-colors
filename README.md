@@ -19,7 +19,6 @@
 
 ## Themes list
 - [x] amber-256 (based on old amber monochrome monitors)
-- [x] aqua
 - [x] c64 (based on the Commodore64 color palette)
 - [x] cga (based on the CGA color palette)
 - [x] cold
@@ -34,9 +33,6 @@
 
 ### Amber-256
 ![clifm](screenshots/amber-256.png)
-
-### Aqua
-![clifm](screenshots/aqua.png)
 
 ### CGA
 ![clifm](screenshots/cga.png)
