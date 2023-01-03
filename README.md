@@ -8,7 +8,7 @@
 
 ## Table of contents
 [Themes list](#themes-list) \
-[Screenshots](#some-screenshots) \
+[Screenshots](#screenshots) \
 [Installation](#installation) \
 [License](#license) \
 [Constributing](#contributing) \
@@ -19,20 +19,29 @@
 
 ## Themes list
 - [x] amber-256 (based on old amber monochrome monitors)
+- [x] arena-256
 - [x] c64 (based on the Commodore64 color palette)
 - [x] cga (based on the CGA color palette)
 - [x] cold
+- [x] cyberpunk
+- [x] dm10s
 - [x] gameboy (based on the GameBoy color palette)
 - [x] green-256 (based on the old green monochome monitors)
 - [x] paul-tol (based on [Paul Tol's color-blind safe scheme](https://personal.sron.nl/~pault/))
 - [x] penumbra-dark (based on the [penumbra color scheme](https://github.com/nealmckee/penumbra), by nealmckee)
-- [x] white-256
 - [x] white
+- [x] white-256
 
-## Some screenshots
+## Screenshots
 
 ### Amber-256
 ![clifm](screenshots/amber-256.png)
+
+### Arena-256
+![clifm](screenshots/arena-256.png)
+
+### C64
+![clifm](screenshots/c64.png)
 
 ### CGA
 ![clifm](screenshots/cga.png)
@@ -40,8 +49,29 @@
 ### Cold
 ![clifm](screenshots/cold.png)
 
+### Cyberpunk
+![clifm](screenshots/cyberpunk.png)
+
+### Dm10s
+![clifm](screenshots/dm10s.png)
+
+### Gameboy
+![clifm](screenshots/gameboy.png)
+
 ### Green-256
 ![clifm](screenshots/green-256.png)
+
+### Paul-tol
+![clifm](screenshots/paul-tol.png)
+
+### Penumbra-dark
+![clifm](screenshots/penumbra.png)
+
+### White-256
+![clifm](screenshots/white-256.png)
+
+### White
+![clifm](screenshots/white.png)
 
 ---
 
