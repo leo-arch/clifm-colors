@@ -1,0 +1,71 @@
+# Theme file for CliFM
+# Theme name: dm10s
+# Author: L. Abramovich
+# License: GPL3
+
+define D=0 # Default terminal foreground color
+define BD=0;1 # Bold (reset foreground color)
+
+define R=31 # Red
+define BR=1;31 # Bold red
+define DR=2;31 # Dimmed red
+define UDR=4;2;31 # Underlined dimmed red
+define UBR=4;1;31 # Underlined bold red
+define RR=7;31 # Reverse red
+
+define G=32 # Green
+define BG=1;32 # Bold green
+define DG=2;32 # Dimmed green
+
+define Y=33 # Yellow
+define BY=1;33 # Bold yellow
+define DY=2;33 # Dimmed yellow
+
+define B=34 # Blue
+define BB=1;34 # Bold blue
+define DB=2;34 # Dimmed blue
+
+define M=35 # Magenta
+define BM=1;35 # Bold Magenta
+define DM=2;35 # Dimmed magenta
+define UM=4;35 # Underlined magenta
+
+define C=36 # Cyan
+define BC=1;36 # Bold cyan
+define DC=2;36 # Dimmed cyan
+define RC=7;36 # Reverse cyan
+define UDC=4;2;36 # Underlined dimmed cyan
+define BDC=1;2;36 # Bold dimmed cyan
+
+define W=0;37 # White
+define BDW=1;2;37 # Bold white
+define DW=2;37 # Dimmed white
+define UDW=4;2;37 # Underlined dimmed white
+
+# Foreground-background combinations
+define URW=4;31;47 # Red foreground, white background
+define WR=37;41 # White foreground, red background
+# K stands for black (B is used for Blue)
+define KY=30;43 # Black foreground, yellow background
+define KR=30;41 # Black foreground, red background
+define KG=30;42 # Black foreground, green background
+# BG is already used for bold green
+define BlGr=34;42 # Blue foreground, green background
+define WB=37;44 # white foreground, blue background
+
+FiletypeColors="bd=BG:ca=KR:cd=BG:di=C:ed=DC:ee=G:ef=DW:ex=BG:fi=W:ln=R:mh=RR:nd=UBR:ne=UDR:nf=UDR:no=URW:or=UDR:ow=BlGr:pi=M:sg=KY:so=BM:st=WB:su=WR:tw=KG:uf=UDW:"
+
+InterfaceColors="bm=BG:dd=C:df=W:dg=Y:dl=DW:dn=DW:dr=Y:do=C:dp=M:dw=R:dxd=G:dxr=C:dz=G:el=R:em=BR:fc=DC:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:li=BG:mi=BC:nm=BG:si=BB:sb=DY:sc=DC:sd=DW:sf=UDC:sh=DM:sp=DR:sx=DG:ti=BC:ts=UM:tt=BDC:tx=W:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
+
+ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz=BR:*.txz=BR:*.tzo=BR:*.t7z=BR:*.zip=BR:*.z=BR:*.dz=BR:*.gz=BR:*.lrz=BR:*.lz=BR:*.lzo=BR:*.xz=BR:*.zst=BR:*.tzst=BR:*.bz2=BR:*.bz=BR:*.tbz=BR:*.tbz2=BR:*.tz=BR:*.deb=BR:*.rpm=BR:*.rar=BR:*.cpio=BR:*.7z=BR:*.rz=BR:*.cab=BR:*.html=Y:*.htm=Y:*.jpg=BM:*.JPG=BM:*.jpeg=BM:*.mjpg=BM:*.mjpeg=BM:*.gif=BM:*.GIF=BM:*.bmp=BM:*.xbm=BM:*.xpm=BM:*.png=BM:*.PNG=BM:*.svg=BM:*.pcx=BM:*.mov=BM:*.mpg=BM:*.mpeg=BM:*.m2v=BM:*.mkv=BM:*.webm=BM:*.webp=BM:*.ogm=BM:*.ogv=BM:*.mp4=BM:*.MP4=BM:*.m4v=BM:*.mp4v=BM:*.vob=BM:*.wmv=BM:*.flc=BM:*.avi=BM:*.flv=BM:*.m4a=BY:*.mid=BY:*.midi=BY:*.mp3=BY:*.MP3=BY:*.ogg=BY:*.wav=BY:*.pdf=BR:*.PDF=BR:*.doc=Y:*.docx=Y:*.xls=Y:*.xlsx=Y:*.ppt=Y:*.pptx=Y:*.odt=Y:*.ods=Y:*.odp=Y:*.cache=DW:*.tmp=DW:*.temp=DW:*.log=DW:*.bak=DW:*.bk=DW:*.in=DW:*.out=DW:*.part=DW:*.aux=DW:*.c=BDW:*.c++=BDW:*.h=BDW:*.cc=BDW:*.cpp=BDW:*.h=BDW:*.h++=BDW:*.hh=BDW:*.go=BDW:*.java=BDW:*.js=BDW:*.lua=BDW:*.rb=BDW:*.rs=BDW:"
+
+DirIconColor="C"
+
+Prompt="\[\e[0;37m\][\S\[\e[0;37m\]]\l \A \u:\H \[\e[0;36m\]\w\n\[\e[0;37m\]<\z\[\e[0;37m\]> \[\e[0;34m\]\$ \[\e[0m\]"
+Notifications=true
+EnableWarningPrompt=true
+WarningPrompt="\[\e[00;02;31m\](!) > "
+
+DividingLine="-"
+
+FzfTabOptions="--color='16,prompt:6,fg+:-1,pointer:4,hl:5,hl+:5,gutter:-1,marker:2,border:7:dim' --marker='*' --bind tab:accept,right:accept,left:abort,alt-p:toggle-preview,change:top,alt-up:preview-page-up,alt-down:preview-page-down --inline-info --layout=reverse-list --preview-window=wrap,border-left"

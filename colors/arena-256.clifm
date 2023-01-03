@@ -1,0 +1,76 @@
+# Theme file for CliFM
+# Theme name: arena (based on Midnight Commander's yadt256 theme)
+# Author: L. Abramovich
+# License: GPL3
+
+define D=0 # Default terminal foreground color
+#define BD=1 # Bold (keep current color)
+define BD=0;1 # Bold (reset foreground color)
+
+define R=38;5;203 # Red
+define BR=1;38;5;203 # Bold red
+define DR=2;38;5;203 # Dimmed red
+define UDR=4;2;38;5;203 # Underlined dimmed red
+define UBR=4;1;38;5;203 # Underlined bold red
+
+define G=38;5;114 # Green
+define BG=1;38;5;114 # Bold green
+define DG=2;38;5;114 # Dimmed green
+
+define Y=38;5;144 # Yellow
+define BY=1;38;5;144 # Bold yellow
+define DY=2;38;5;144 # Dimmed yellow
+
+define B=38;5;141 # Blue
+define BB=1;38;5;141 # Bold blue
+define DB=2;38;5;141 # Dimmed blue
+
+define M=38;5;170 # Magenta
+define BM=1;38;5;170 # Bold Magenta
+define DM=2;38;5;170 # Dimmed magenta
+define UM=4;38;5;170 # Underlined magenta
+define UDM=4;2;38;5;170 # Underlined dimmed magenta
+
+define C=38;5;109 # Cyan
+define BC=1;38;5;109 # Bold cyan
+define DC=2;38;5;109 # Dimmed cyan
+define RC=7;38;5;109 # Reverse cyan
+define UDC=4;2;38;5;109 # Underlined dimmed cyan
+define BDC=1;2;38;5;109 # Bold dimmed cyan
+
+define W=38;5;250 # White
+define DW=2;38;5;250 # Dimmed white
+define UDW=4;2;38;5;250 # Underlined dimmed white
+
+define URW=4;31;47 # Red foreground, white background
+define WR=37;41 # White foreground, red background
+# K stands for black (B is used for Blue)
+define KY=30;43 # Black foreground, yellow background
+define KR=30;41 # Black foreground, red background
+define KG=30;42 # Black foreground, green background
+# BG is already used for bold green
+define BlGr=34;42 # Blue foreground, green background
+define WB=37;44 # white foreground, blue background
+
+define O=38;5;172 # Orange
+define BO=1;38;5;172 # Bold orange
+define DO=2;38;5;172 # Dimmed orange
+
+define S=38;5;180 # Salmon
+
+FiletypeColors="bd=BY:ca=KR:cd=BD:di=BY:ed=DY:ee=G:ef=DW:ex=BG:fi=W:ln=BC:mh=RC:nd=UBR:ne=UDR:nf=UDR:no=URW:or=UDC:ow=BlGr:pi=M:sg=KY:so=BM:st=WB:su=WR:tw=KG:uf=UDW:"
+
+InterfaceColors="bm=BG:dd=C:df=W:dg=Y:dl=DW:dn=DW:dr=Y:do=C:dp=M:dw=R:dxd=G:dxr=C:dz=G:el=O:em=BR:fc=DY:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:li=BG:mi=BC:nm=BG:si=BB:sb=DY:sc=DC:sd=DW:sf=UDC:sh=DM:sp=DR:sx=DG:sz=UDM:ti=BC:ts=UM:tt=BDC:tx=W:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
+
+ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz=BR:*.txz=BR:*.tzo=BR:*.t7z=BR:*.zip=BR:*.z=BR:*.dz=BR:*.gz=BR:*.lrz=BR:*.lz=BR:*.lzo=BR:*.xz=BR:*.zst=BR:*.tzst=BR:*.bz2=BR:*.bz=BR:*.tbz=BR:*.tbz2=BR:*.tz=BR:*.deb=BR:*.rpm=BR:*.rar=BR:*.cpio=BR:*.7z=BR:*.rz=BR:*.cab=BR:*.iso=BR:*.html=Y:*.htm=Y:*.jpg=BM:*.JPG=BM:*.jpeg=BM:*.mjpg=BM:*.mjpeg=BM:*.gif=BM:*.GIF=BM:*.bmp=BM:*.xbm=BM:*.xpm=BM:*.png=BM:*.PNG=BM:*.svg=BM:*.pcx=BM:*.mov=BM:*.mpg=BM:*.mpeg=BM:*.m2v=BM:*.mkv=BM:*.webm=BM:*.webp=BM:*.ogm=BM:*.ogv=BM:*.mp4=BM:*.MP4=BM:*.m4v=BM:*.mp4v=BM:*.vob=BM:*.wmv=BM:*.flc=BM:*.avi=BM:*.flv=BM:*.m4a=BY:*.mid=BY:*.midi=BY:*.mp3=BY:*.MP3=BY:*.ogg=BY:*.wav=BY:*.pdf=BR:*.PDF=BR:*.djvu=BR:*.doc=M:*.docx=M:*.xls=M:*.xlsx=M:*.ppt=M:*.pptx=M:*.odt=M:*.ods=M:*.odp=M:*.rtf=M:*.cache=DW:*.tmp=DW:*.temp=DW:*.log=DW:*.bak=DW:*.bk=DW:*.in=DW:*.out=DW:*.part=DW:*.aux=DW:*.c=BD:*.c++=BD:*.h=BD:*.cc=BD:*.cpp=BD:*.h=BD:*.h++=BD:*.hh=BD:*.go=BD:*.java=BD:*.js=BD:*.lua=BD:*.rb=BD:*.rs=BD:"
+
+DirIconColor="Y"
+
+Prompt="\[\e[0;38;5;250m\][\S\[\e[0;38;5;250m\]]\l \A \u:\H \[\e[0;38;5;109m\]\w\n\[\e[0;38;5;250m\]<\z\[\e[0;38;5;250m\]> \[\e[0;38;5;141m\]\$ \[\e[0m\]"
+Notifications=true
+EnableWarningPrompt=true
+WarningPrompt="\[\e[00;02;38;5;203m\](!) > "
+
+DividingLine="-"
+
+FzfTabOptions="--color='16,prompt:#87afaf,fg+:-1,pointer:#af87ff,hl:#d75fd7,hl+:#d75fd7,gutter:-1,marker:#87d787,border:#bcbcbc' --marker='*' --bind tab:accept,right:accept,left:abort,alt-p:toggle-preview,change:top,alt-up:preview-page-up,alt-down:preview-page-down --inline-info --layout=reverse-list --preview-window=wrap,border-left"
