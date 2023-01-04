@@ -23,6 +23,7 @@
 - [x] c64 (based on the Commodore64 color palette)
 - [x] cga (based on the CGA color palette)
 - [x] cold
+- [x] contrast
 - [x] cyberpunk
 - [x] dm10s
 - [x] gameboy (based on the GameBoy color palette)
@@ -48,6 +49,9 @@
 
 ### Cold
 ![clifm](screenshots/cold.png)
+
+### Contrast
+![clifm](screenshots/contrast.png)
 
 ### Cyberpunk
 ![clifm](screenshots/cyberpunk.png)
