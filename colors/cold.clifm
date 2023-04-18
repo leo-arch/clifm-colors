@@ -53,9 +53,12 @@ define OW=00;38;5;202;47
 
 FiletypeColors="di=BB:nd=UBM:ed=DB:ne=UO:fi=W:ef=DW:nf=UM:ln=BG:mh=RG:or=UDM:pi=BO:so=O:bd=BW:cd=BY:su=RR:sg=RY:ca=BlR:tw=KB:ow=BlGr:st=WB:ex=BR:ee=R:no=OW:uf=UO:"
 
-InterfaceColors="el=BB2:mi=BB:dl=G:tx=W:df=W:fc=DB:wc=BC:li=BG:si=BB:ti=BC:em=BR:wm=BY:nm=BG:bm=BG:dd=B:dg=Y:dn=DW:dr=Y:do=G:dp=M:dw=R:dxd=G:dxr=C:dz=G:hb=G:hc=DR:hd=G:he=G:hn=M:hp=G:hq=Y:hr=R:hs=G:hv=BDG:sb=DY:sc=DR:sf=UDC:sh=DR:sp=DG:sx=DG:ti=BC:ts=UM:tt=BDC:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=B:ws6=B:ws7=B:ws8=B:xs=G:xf=R:
+InterfaceColors="el=BB2:mi=BB:dl=G:tx=W:df=W:fc=DB:wc=BC:lc=G:li=BG:si=BB:ti=BC:em=BR:wm=BY:nm=BG:bm=BG:dd=:dg=Y:dn=DW:dr=Y:do=G:dp=M:dw=R:dxd=G:dxr=C:dz=:hb=G:hc=DR:hd=G:he=G:hn=M:hp=G:hq=Y:hr=R:hs=G:hv=BDG:sb=DY:sc=DR:sf=UDC:sh=DR:sp=DG:sx=DG:ti=BC:ts=UM:tt=BDC:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=B:ws6=B:ws7=B:ws8=B:xs=G:xf=R:
 
 ExtColors="*.tar=G:*.tgz=G:*.taz=G:*.lha=G:*.lz4=G:*.lzh=G:*.lzma=G:*.tlz=G:*.txz=G:*.tzo=G:*.t7z=G:*.zip=G:*.z=G:*.dz=G:*.gz=G:*.lrz=G:*.lz=G:*.lzo=G:*.xz=G:*.zst=G:*.tzst=G:*.bz2=G:*.bz=G:*.tbz=G:*.tbz2=G:*.tz=G:*.deb=G:*.rpm=G:*.rar=G:*.cpio=G:*.7z=G:*.rz=G:*.cab=G:*.jpg=G:*.jpeg=G:*.mjpg=G:*.mjpeg=G:*.gif=G:*.bmp=G:*.xbm=G:*.xpm=G:*.png=G:*.svg=G:*.pcx=G:*.mov=G:*.mpg=G:*.mpeg=G:*.m2v=G:*.mkv=G:*.webm=G:*.webp=G:*.ogm=G:*.mp4=G:*.m4v=G:*.mp4v=G:*.vob=G:*.wmv=G:*.flc=G:*.avi=G:*.flv=G:*.m4a=G:*.mid=G:*.midi=G:*.mp3=G:*.ogg=G:*.wav=G:"
+
+DateShades="2,161-2,231,253,250,247,244"
+SizeShades="2,161-2,121,157,222,202,161"
 
 DirIconColor="C"
 
