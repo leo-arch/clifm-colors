@@ -57,10 +57,10 @@ FiletypeColors="bd=BG:ca=KR:cd=BG:di=C:ed=DC:ee=G:ef=DW:ex=BG:fi=W:ln=R:mh=RR:nd
 
 InterfaceColors="bm=BG:dd=:de=M:df=W:dg=Y:dk=R:dl=DW:dn=DW:dr=Y:do=C:dp=M:dw=R:dxd=G:dxr=C:dz=:el=R:em=BR:fc=DC:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:lc=R:li=BG:mi=BC:nm=BG:si=BB:sb=DY:sc=DC:sd=DW:sf=UDC:sh=DM:sp=DR:sx=DG:ti=BC:ts=UM:tt=BDC:tx=W:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
 
-ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz=BR:*.txz=BR:*.tzo=BR:*.t7z=BR:*.zip=BR:*.z=BR:*.dz=BR:*.gz=BR:*.lrz=BR:*.lz=BR:*.lzo=BR:*.xz=BR:*.zst=BR:*.tzst=BR:*.bz2=BR:*.bz=BR:*.tbz=BR:*.tbz2=BR:*.tz=BR:*.deb=BR:*.rpm=BR:*.rar=BR:*.cpio=BR:*.7z=BR:*.rz=BR:*.cab=BR:*.html=Y:*.htm=Y:*.jpg=BM:*.jpeg=BM:*.mjpg=BM:*.mjpeg=BM:*.gif=BM:*.bmp=BM:*.xbm=BM:*.xpm=BM:*.png=BM:*.svg=BM:*.pcx=BM:*.mov=BM:*.mpg=BM:*.mpeg=BM:*.m2v=BM:*.mkv=BM:*.webm=BM:*.webp=BM:*.ogm=BM:*.ogv=BM:*.mp4=BM:*.m4v=BM:*.mp4v=BM:*.vob=BM:*.wmv=BM:*.flc=BM:*.avi=BM:*.flv=BM:*.m4a=BY:*.mid=BY:*.midi=BY:*.mp3=BY:*.ogg=BY:*.wav=BY:*.pdf=BR:*.doc=Y:*.docx=Y:*.xls=Y:*.xlsx=Y:*.ppt=Y:*.pptx=Y:*.odt=Y:*.ods=Y:*.odp=Y:*.cache=DW:*.tmp=DW:*.temp=DW:*.log=DW:*.bak=DW:*.bk=DW:*.in=DW:*.out=DW:*.part=DW:*.aux=DW:*.c=BDW:*.c++=BDW:*.cc=BDW:*.cpp=BDW:*.h=BDW:*.h++=BDW:*.hh=BDW:*.go=BDW:*.java=BDW:*.js=BDW:*.lua=BDW:*.rb=BDW:*.rs=BDW:"
+ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz=BR:*.txz=BR:*.tzo=BR:*.t7z=BR:*.zip=BR:*.z=BR:*.dz=BR:*.gz=BR:*.lrz=BR:*.lz=BR:*.lzo=BR:*.xz=BR:*.zst=BR:*.tzst=BR:*.bz2=BR:*.bz=BR:*.tbz=BR:*.tbz2=BR:*.tz=BR:*.deb=BR:*.rpm=BR:*.rar=BR:*.cpio=BR:*.7z=BR:*.rz=BR:*.cab=BR:*.html=Y:*.htm=Y:*.jpg=BM:*.jpeg=BM:*.mjpg=BM:*.mjpeg=BM:*.gif=BM:*.bmp=BM:*.xbm=BM:*.xpm=BM:*.png=BM:*.svg=BM:*.pcx=BM:*.mov=BM:*.mpg=BM:*.mpeg=BM:*.m2v=BM:*.mkv=BM:*.webm=BM:*.webp=BM:*.ogm=BM:*.ogv=BM:*.mp4=BM:*.m4v=BM:*.mp4v=BM:*.vob=BM:*.wmv=BM:*.flc=BM:*.avi=BM:*.flv=BM:*.m4a=BY:*.mid=BY:*.midi=BY:*.mp3=BY:*.ogg=BY:*.wav=BY:*.pdf=BR:*.doc=Y:*.docx=Y:*.xls=Y:*.xlsx=Y:*.ppt=Y:*.pptx=Y:*.odt=Y:*.ods=Y:*.odp=Y:*.cache=DW:*.tmp=DW:*.temp=DW:*.log=DW:*.bak=DW:*.bk=DW:*.in=DW:*.out=DW:*.part=DW:*.aux=DW:*.c=BDW:*.c++=BDW:*.h=BDW:*.cc=BDW:*.cpp=BDW:*.h=BDW:*.h++=BDW:*.hh=BDW:*.go=BDW:*.java=BDW:*.js=BDW:*.lua=BDW:*.rb=BDW:*.rs=BDW:"
 
-DateShades="1,31-2,36-1,36,36-2"
-SizeShades="1,31-2,32,33,31"
+DateShades="1,31-2,36-1,36,36-2,36-2,36-2"
+SizeShades="1,31-2,36,32,33,31,35"
 
 DirIconColor="C"
 
