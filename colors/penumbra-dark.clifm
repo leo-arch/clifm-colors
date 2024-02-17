@@ -64,7 +64,7 @@ ExtColors="*.tar=BR:*.tgz=BR:*.taz=BR:*.lha=BR:*.lz4=BR:*.lzh=BR:*.lzma=BR:*.tlz
 DirIconColor="Y"
 
 # DatesShades uses default values
-SizeShades="3,#cb7459-1,#00a0be,#46a473,#a38f2d,#cb7459,cb7459-1"
+SizeShades="3,#cb7459-2,#00a0be,#46a473,#a38f2d,#cb7459,cb7459-1"
 
 # The prompt used by CliFM. Use the 'prompt' command to check for available
 # prompts. Enter 'prompt --help' for more information
