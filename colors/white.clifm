@@ -13,7 +13,7 @@ define UBW=04;01;37
 # Theme name: White
 FiletypeColors="di=BW:nd=BDW:ed=BDW:ne=UBW:fi=W:ef=DW:ex=W:ee=W:nf=UBW:ln=UW:mh=UW:or=UDW:pi=02;37;40:so=W:bd=BW:cd=BW:su=04;01;30;47:sg=01;30;47:ca=30;47:tw=BW:ow=BW:st=BW:no=30;47:uf=30;47:"
 
-InterfaceColors="db=W:dd=:de=W:dg=W:dk=BW:dn=DW:dr=W:do=W:dp=W:dw=BW:dxd=W:dxr=UW:dz=:el=BDW:fc=DW:mi=BW:dl=BDW:tx=W:df=W:lc=BW:li=BW:si=BW:ti=BW:em=BW:wm=BW:nm=BW:bm=BW:ts=UW:hb=C:hc=DR:hd=W:he=BW:hn=BW:hp=BW:hq=BW:hr=BW:hs=BW:hv=BW:sb=DW:sc=DW:sf=DW:sh=DW:sp=DW:sx=DW:tt=DW:wc=BW:wp=DW:ws1=BW:ws2=W:ws3=BW:ws4=W:ws5=W:ws6=W:ws7=W:ws8=W:xs=W:xf=BW:"
+InterfaceColors="db=W:dd=:de=W:dg=W:dk=BW:dn=DW:dr=W:do=W:dp=W:dw=BW:dxd=W:dxr=UW:dz=:el=BDW:fc=DW:mi=BW:dl=BDW:tx=W:df=W:lc=BW:li=BW:si=BW:ti=BW:em=BW:wm=BW:nm=BW:bm=BW:ts=UW:hb=BW:hc=DR:hd=W:he=BW:hn=BW:hp=BW:hq=BW:hr=BW:hs=BW:hv=BW:hw=DW:ro=BW:sb=DW:sc=DW:sf=UDW:sh=DW:sp=DW:sx=DW:sz=UDW:tt=DW:wc=BW:wp=DW:ws1=BW:ws2=W:ws3=BW:ws4=W:ws5=W:ws6=W:ws7=W:ws8=W:xs=W:xf=BW:"
 
 ExtColors="*.tar=W:*.tgz=W:*.taz=W:*.lha=W:*.lz4=W:*.lzh=W:*.lzma=W:*.tlz=W:*.txz=W:*.tzo=W:*.t7z=W:*.zip=W:*.z=W:*.dz=W:*.gz=W:*.lrz=W:*.lz=W:*.lzo=W:*.xz=W:*.zst=W:*.tzst=W:*.bz2=W:*.bz=W:*.tbz=W:*.tbz2=W:*.tz=W:*.deb=W:*.rpm=W:*.rar=W:*.cpio=W:*.7z=W:*.rz=W:*.cab=W:*.jpg=W:*.jpeg=W:*.mjpg=W:*.mjpeg=W:*.gif=W:*.bmp=W:*.xbm=W:*.xpm=W:*.png=W:*.svg=W:*.pcx=W:*.mov=W:*.mpg=W:*.mpeg=W:*.m2v=W:*.mkv=W:*.webm=W:*.webp=W:*.ogm=W:*.mp4=W:*.m4v=W:*.mp4v=W:*.vob=W:*.wmv=W:*.flc=W:*.avi=W:*.flv=W:*.m4a=W:*.mid=W:*.midi=W:*.mp3=W:*.ogg=W:*.wav=W:"
 
