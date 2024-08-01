@@ -66,7 +66,7 @@ define KG=30;42 # Black foreground, green background
 define BlGr=34;42 # Blue foreground, green background
 define WB=37;44 # white foreground, blue background
 
-FiletypeColors="bd=BY:ca=KR:cd=BW:di=BC:ed=BDC:ee=G:ef=DW:ex=G:fi=W:ln=BP:mh=RP:nd=UBR:ne=UDR:nf=UR:no=URW:or=UP:ow=BlGr:pi=M:sg=KY:so=BM:st=WB:su=WR:tw=KG:uf=UDW:"
+FiletypeColors="bd=BY:ca=KR:cd=BW:di=BC:ed=BDC:ee=G:ef=DW:ex=G:fi=W:ln=BP:mh=RP:nd=UBR:nf=UR:no=URW:or=UP:ow=BlGr:pi=M:sg=KY:so=BM:st=WB:su=WR:tw=KG:uf=UDW:"
 
 InterfaceColors="bm=BG:db=P:dd=:de=M:df=W:dg=Y:dk=R:dl=DW:dn=DW:dr=Y:do=C:dp=M:dw=R:dxd=G:dxr=C:dz=:el=Y:em=BR:fc=W:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:lc=P:li=BG:mi=BC:nm=BG:si=BB:sb=DY:sc=DC:sd=DW:sf=UDC:sh=DM:sp=DR:sx=DG:sz=UDM:ti=BC:ts=UM:tt=BDC:tx=W:wc=BC:wm=BY:wp=DR:ws1=C:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xf=BR:xs=G:"
 

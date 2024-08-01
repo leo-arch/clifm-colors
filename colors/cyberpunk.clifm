@@ -34,7 +34,7 @@ define Gr=38;2;229;229;229
 define DGr=2;38;2;229;229;229
 define Bk=38;2;0;0;0
 
-FiletypeColors="di=BM:nd=BDUM:ed=DM:ne=DR:fi=Gr:ef=DGr:nf=DUR:ln=BG:mh=RC:or=DUG:pi=M:so=BM:bd=BY:cd=BD:su=WR:sg=KY:ca=KR:tw=KG:ow=BlGr:st=WB:ex=LB:ee=G:no=RW:uf=BW:
+FiletypeColors="di=BM:nd=BDUM:ed=DM:fi=Gr:ef=DGr:nf=DUR:ln=BG:mh=RC:or=DUG:pi=M:so=BM:bd=BY:cd=BD:su=WR:sg=KY:ca=KR:tw=KG:ow=BlGr:st=WB:ex=LB:ee=G:no=RW:uf=BW:
 
 InterfaceColors="el=R:mi=BC:dl=DW:tx=W:df=W:fc=DM:wc=BC:lc=G:li=BLB:si=BB:ti=BC:em=BR:wm=BY:nm=BG:bm=BC:db=BD:de=M:dk=R:dn=DW:dr=Y:dw=R:dxd=G:dxr=M:dg=Y:dd=:dz=:do=C:dp=M:sb=DY:sc=DR:sf=UDC:sh=DM:sp=DR:sx=DG:hb=C:hc=DR:hd=C:he=C:hn=M:hp=C:hq=Y:hr=R:hs=G:hv=G:tt=BDC:ts=UM:wp=DR:ws1=M:ws2=R:ws3=Y:ws4=G:ws5=C:ws6=C:ws7=C:ws8=C:xs=G:xf=BR:"
 

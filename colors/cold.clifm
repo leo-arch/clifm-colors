@@ -51,7 +51,7 @@ define BlGr=01;38;2;00;152;219;48;5;121
 define WB=38;5;253;48;2;00;152;219
 define OW=00;38;5;202;47
 
-FiletypeColors="di=BB:nd=UBM:ed=DB:ne=UO:fi=W:ef=DW:nf=UM:ln=BG:mh=RG:or=UDM:pi=BO:so=O:bd=BW:cd=BY:su=RR:sg=RY:ca=BlR:tw=KB:ow=BlGr:st=WB:ex=BR:ee=R:no=OW:uf=UO:"
+FiletypeColors="di=BB:nd=UBM:ed=DB:fi=W:ef=DW:nf=UM:ln=BG:mh=RG:or=UDM:pi=BO:so=O:bd=BW:cd=BY:su=RR:sg=RY:ca=BlR:tw=KB:ow=BlGr:st=WB:ex=BR:ee=R:no=OW:uf=UO:"
 
 InterfaceColors="el=BB2:mi=BB:dl=DW:tx=W:df=W:fc=DB:wc=BC:lc=G:li=BG:si=BB:ti=BC:em=BR:wm=BY:nm=BG:bm=BG:db=B:dd=:de=C:dg=Y:dk=R:dn=DW:dr=Y:do=G:dp=M:dw=R:dxd=G:dxr=C:dz=:hb=G:hc=DR:hd=G:he=G:hn=M:hp=G:hq=Y:hr=R:hs=G:hv=BDG:sb=DY:sc=DR:sf=UDC:sh=DR:sp=DG:sx=DG:ti=BC:ts=UM:tt=BDC:wc=BC:wm=BY:wp=DR:ws1=B:ws2=R:ws3=Y:ws4=G:ws5=B:ws6=B:ws7=B:ws8=B:xs=G:xf=R:
 

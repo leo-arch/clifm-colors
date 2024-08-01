@@ -4,7 +4,7 @@
 # Author: L. Abramovich
 # License: GPL3
 
-FiletypeColors="di=1;35:nd=35:ed=2;97:ne=35:fi=97:ef=2;97:nf=35:ln=1;36:mh=30;46:or=96:pi=2;36;40:so=1;96:bd=1;96:cd=1;96:su=37;46:sg=37;45:ca=30;45:tw=30;46:ow=36;45:st=04;37;45:ex=1;35:ee=35:no=35;47:uf=4;30;45:"
+FiletypeColors="di=1;35:nd=35:ed=2;97:fi=97:ef=2;97:nf=35:ln=1;36:mh=30;46:or=96:pi=2;36;40:so=1;96:bd=1;96:cd=1;96:su=37;46:sg=37;45:ca=30;45:tw=30;46:ow=36;45:st=04;37;45:ex=1;35:ee=35:no=35;47:uf=4;30;45:"
 
 InterfaceColors="el=1;96:mi=1;36:dl=1;96:tx=97:df=97:fc=2;97:wc=1;36:dh=36:lc=1;37:li=1;35:si=1;35:ti=1;36:em=1;35:wm=1;36:nm=1;36:bm=1;36:db=2;97:de=36:dk=2;97:dn=2;37:dr=37:dw=35:dxd=36:dxr=1;36:dg=35:dd=:dz=:do=36:dp=35:ro=1;35:sb=2;35:sc=2;35:sf=4;2;35:sd=2;35:sh=2;35:sp=2;35:sx=2;36:hb=35:hc=2;35:hd=36:he=36:hn=0:hp=36:hq=36:hr=35:hs=00;35:hv=35:hw=35:tt=1;2;36:ts=4;35:wp=2;35:ws1=35:ws2=36:ws3=37:ws4=36:ws5=36:ws6=36:ws7=36:ws8=36:xs=36:xf=1;35:"
 
