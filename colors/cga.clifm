@@ -1,4 +1,4 @@
-# Theme file for CliFM
+# Theme file for Clifm
 # Theme name: CGA (based on the low and high intensity colors of the
 # CGA Palette 1). See https://en.wikipedia.org/wiki/Color_Graphics_Adapter
 # Author: L. Abramovich
@@ -6,7 +6,7 @@
 
 FiletypeColors="di=1;35:nd=35:ed=2;97:fi=97:ef=2;97:nf=35:ln=1;36:mh=30;46:or=96:pi=2;36;40:so=1;96:bd=1;96:cd=1;96:su=37;46:sg=37;45:ca=30;45:tw=30;46:ow=36;45:st=04;37;45:ex=1;35:ee=35:no=35;47:uf=4;30;45:"
 
-InterfaceColors="el=1;96:mi=1;36:dl=1;96:tx=97:df=97:fc=2;97:wc=1;36:dh=36:lc=1;37:li=1;35:si=1;35:ti=1;36:em=1;35:wm=1;36:nm=1;36:bm=1;36:db=2;97:de=36:dk=2;97:dn=2;37:dr=37:dw=35:dxd=36:dxr=1;36:dg=35:dd=:dz=:do=36:dp=35:ro=1;35:sb=2;35:sc=2;35:sf=4;2;35:sd=2;35:sh=2;35:sp=2;35:sx=2;36:hb=35:hc=2;35:hd=36:he=36:hn=0:hp=36:hq=36:hr=35:hs=00;35:hv=35:hw=35:tt=1;2;36:ts=4;35:wp=2;35:ws1=35:ws2=36:ws3=37:ws4=36:ws5=36:ws6=36:ws7=36:ws8=36:xs=36:xf=1;35:"
+InterfaceColors="el=1;96:mi=1;36:dl=1;96:tx=97:df=97:fc=2;97:wc=1;36:dh=36:lc=1;37:li=1;35:si=1;35:ti=1;36:em=1;35:wm=1;36:nm=1;36:bm=1;36:db=2;97:de=36:dk=2;97:dn=2;37:dr=37:dw=35:dxd=36:dxr=1;36:dg=35:dd=:dz=:do=36:dp=35:ro=1;35:sb=2;35:sc=2;35:sf=4;2;35:sd=2;35:sh=2;35:sp=2;35:sx=2;36:hb=35:hc=2;35:hd=36:he=36:hn=97:hp=36:hq=36:hr=35:hs=00;35:hv=35:hw=35:tt=1;2;36:ts=4;35:wp=2;35:ws1=35:ws2=36:ws3=37:ws4=36:ws5=36:ws6=36:ws7=36:ws8=36:xs=36:xf=1;35:"
 
 ExtColors="*.tar=01;37:*.tgz=01;37:*.taz=01;37:*.lha=01;37:*.lz4=01;37:*.lzh=01;37:*.lzma=01;37:*.tlz=01;37:*.txz=01;37:*.tzo=01;37:*.t7z=01;37:*.zip=01;37:*.z=01;37:*.dz=01;37:*.gz=01;37:*.lrz=01;37:*.lz=01;37:*.lzo=01;37:*.xz=01;37:*.zst=01;37:*.tzst=01;37:*.bz2=01;37:*.bz=01;37:*.tbz=01;37:*.tbz2=01;37:*.tz=01;37:*.deb=01;37:*.rpm=01;37:*.rar=01;37:*.cpio=01;37:*.7z=01;37:*.rz=01;37:*.cab=01;37:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.xbm=01;35:*.xpm=01;35:*.png=01;35:*.svg=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.wmv=01;35:*.flc=01;35:*.avi=01;35:*.flv=01;35:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mp3=00;36:*.ogg=00;36:*.wav=00;36:"
 
