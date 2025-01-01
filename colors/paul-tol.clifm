@@ -2,7 +2,7 @@
 # Theme name: paul-tol (based on https://personal.sron.nl/~pault/)
 # Description: This theme uses Paul Tol's Bright color scheme and is intended to be color-blind safe 
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define D=38;2;187;187;187
 define BD=1;38;2;187;187;187

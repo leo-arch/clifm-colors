@@ -1,7 +1,7 @@
 # Theme file for Clifm
 # Theme name: penumbra-dark (based on https://github.com/nealmckee/penumbra)
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define D=38;2;190;190;190 # Terminal foreground color
 define BD=1;38;2;190;190;190 # Bold default

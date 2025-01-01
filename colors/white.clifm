@@ -1,6 +1,6 @@
 # Color scheme file for Clifm
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define W=37
 define BW=1;37

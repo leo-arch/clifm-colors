@@ -1,7 +1,7 @@
 # Theme file for Clifm
 # Theme name: cyberpunk (based on https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/cyberpunk.itermcolors)
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define R=38;2;255;112;146
 define BR=1;38;2;255;112;146

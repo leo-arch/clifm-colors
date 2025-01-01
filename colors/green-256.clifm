@@ -1,6 +1,6 @@
 # Color scheme file for Clifm
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define TEMP=2;38;5;40
 

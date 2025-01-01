@@ -1,7 +1,7 @@
 # Theme file for Clifm
 # Theme name: C64
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 # Color palette taken from https://www.c64-wiki.com/wiki/Color
 define BD=0;1;38;2;187;187;187 # Bold
