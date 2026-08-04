@@ -31,7 +31,6 @@
 - [x] paul-tol (based on [Paul Tol's color-blind safe scheme](https://personal.sron.nl/~pault/))
 - [x] penumbra-dark (based on the [penumbra color scheme](https://github.com/nealmckee/penumbra), by nealmckee)
 - [x] white
-- [x] white-256
 
 ## Screenshots
 
@@ -71,9 +70,6 @@
 ### Penumbra-dark
 ![clifm](screenshots/penumbra.png)
 
-### White-256
-![clifm](screenshots/white-256.png)
-
 ### White
 ![clifm](screenshots/white.png)
 
@@ -96,7 +92,7 @@ git clone https://github.com/leo-arch/clifm-colors
 b) cd into the `colors` directory and copy the color schemes (`.clifm` files) into the colors directory of your **clifm** local directory (`$XDG_CONFIG_HOME/clifm/colors` or `$HOME/.config/clifm/colors`).
 
 #### 2. Set your theme
-Once the theme is copied, set the desired color scheme, either via the command line (with the `--color-scheme` option) or, once in **clifm**, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `edit` command or pressing <kbd>F10</kbd>).
+Once the theme is copied, set the desired color scheme, either via the command line (with the `--color-scheme` option) or, once in **clifm**, with the `cs` command. You can also permanently set the color scheme using the main configuration file: `clifmrc` (which can be accessed via the `config` command or pressing <kbd>F10</kbd>).
 
 **Note**: If using a version of **clifm** prior to 1.6.1, the extension of the color theme files must be changed from `.clifm` to `.cfm`. Follow [this link](https://github.com/leo-arch/clifm/wiki/Specifics#new-extension-for-configuration-files) for more details on this issue.
 
@@ -120,5 +116,4 @@ Yes. Try these color schemes, modify them, and even create your own themes. If y
 ---
 
 ## Community
-Join **clifm**'s [Gitter discussion room](https://gitter.im/leo-arch/clifm) and let us know what you think: ideas, comments, observations and questions are always welcome. \
-The [Discussions](https://github.com/leo-arch/clifm/discussions) section of **clifm** is also open to input.
+The [Discussions](https://github.com/leo-arch/clifm/discussions) section of **clifm** is always open to input.
