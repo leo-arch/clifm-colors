@@ -1,7 +1,7 @@
 # Theme file for Clifm
 # Theme name: contrast
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 define D=00;37
 define BD=01;02;37

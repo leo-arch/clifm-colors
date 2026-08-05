@@ -2,7 +2,7 @@
 # Theme name: CGA (based on the low and high intensity colors of the
 # CGA Palette 1). See https://en.wikipedia.org/wiki/Color_Graphics_Adapter
 # Author: L. Abramovich
-# License: GPL3
+# License: GPL2+
 
 FiletypeColors="di=1;35:nd=35:ed=2;97:fi=97:ef=2;97:nf=35:ln=1;36:mh=30;46:or=96:pi=2;36;40:so=1;96:bd=1;96:cd=1;96:su=37;46:sg=37;45:ca=30;45:tw=30;46:ow=36;45:st=04;37;45:ex=1;35:ee=35:no=35;47:uf=4;30;45:"
 
