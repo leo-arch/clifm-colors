@@ -2,8 +2,7 @@
 > Extra color schemes for the [**clifm** file manager](https://github.com/leo-arch/clifm)
 
 [![clifm-colors-git](https://img.shields.io/aur/version/clifm-colors-git?color=1793d1&label=clifm-colors-git&logo=archlinux&style=flat)](https://aur.archlinux.org/packages/clifm-colors-git)
-[![License](https://img.shields.io/github/license/leo-arch/clifm?color=green&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
-
+[![License](https://img.shields.io/github/license/leo-arch/clifm-colors?color=green&style=flat)](https://github.com/leo-arch/clifm/blob/master/LICENSE)
 ---
 
 ## Table of contents
@@ -27,7 +26,7 @@
 - [x] cyberpunk
 - [x] dm10s
 - [x] gameboy (based on the GameBoy color palette)
-- [x] green-256 (based on the old green monochome monitors)
+- [x] green-256 (based on the old green monochrome monitors)
 - [x] paul-tol (based on [Paul Tol's color-blind safe scheme](https://personal.sron.nl/~pault/))
 - [x] penumbra-dark (based on the [penumbra color scheme](https://github.com/nealmckee/penumbra), by nealmckee)
 - [x] white
